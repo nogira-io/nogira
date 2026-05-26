@@ -1,0 +1,25 @@
+                                 Apache License
+                           Version 2.0, January 2004
+                        http://www.apache.org/licenses/
+
+   Copyright 2025 NoGira Ltd
+
+   Licensed under the Apache License, Version 2.0 (the "License");
+   you may not use files in this repository except in compliance with the License.
+   You may obtain a copy of the License at
+
+       http://www.apache.org/licenses/LICENSE-2.0
+
+   Unless required by applicable law or agreed to in writing, software
+   distributed under the License is distributed on an "AS IS" BASIS,
+   WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+   See the License for the specific language governing permissions and
+   limitations under the License.
+
+---
+
+**Note:** Docker images pulled by this installer (`nogira/nogira-core`, `nogira/nogira-ui`,
+`nogira/nogira-notification-worker`) are published on [Docker Hub — nogira](https://hub.docker.com/u/nogira)
+and distributed under NoGira's open-core terms.
+Community vs Enterprise feature boundaries are described in the README and [docs/faq.md](docs/faq.md).
+Enterprise features and commercial licensing are available from NoGira Ltd.

@@ -1,0 +1,71 @@
+# NoGira single-node evaluation stack (NG-600)
+# Images: https://hub.docker.com/u/nogira — edit all three nogira/* tags together on upgrade.
+# On cicd-release.sh --version X.Y.Z: also update CHANGELOG.md + docs/releases/X.Y.Z.md (see .cursor/rules/devops/nogira-public-installer-release.mdc).
+
+services:
+  nogira-postgres:
+    image: postgres:14
+    container_name: ng-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: nogira
+      POSTGRES_USER: nogira
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+    volumes:
+      - nogira-postgres-data:/var/lib/postgresql/data
+
+  nogira-core:
+    image: nogira/nogira-core:0.1.5
+    container_name: ng-core
+    restart: unless-stopped
+    depends_on:
+      - nogira-postgres
+    ports:
+      - '4000:4000'
+    environment:
+      NODE_ENV: production
+      PORT: 4000
+      DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
+      JWT_SECRET: ${JWT_SECRET}
+      NOGIRA_STORAGE_ROOT: /data
+      CORS_ORIGIN: http://localhost:3000
+      FRONTEND_URL: http://localhost:3000
+    volumes:
+      - nogira-core-data:/data
+
+  nogira-notification-worker:
+    image: nogira/nogira-notification-worker:0.1.5
+    container_name: ng-notification-worker
+    restart: unless-stopped
+    depends_on:
+      - nogira-postgres
+      - nogira-core
+    environment:
+      NODE_ENV: production
+      DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
+      JWT_SECRET: ${JWT_SECRET}
+      NOGIRA_STORAGE_ROOT: /data
+      NOTIFICATION_WORKER_SKIP_SMTP_VERIFY: '1'
+      NOGIRA_SMTP_ENABLED: 'false'
+      FRONTEND_URL: http://localhost:3000
+    volumes:
+      - nogira-core-data:/data
+
+  nogira-ui:
+    image: nogira/nogira-ui:0.1.5
+    container_name: ng-ui
+    restart: unless-stopped
+    depends_on:
+      - nogira-core
+    ports:
+      - '3000:3000'
+    environment:
+      PORT: '3000'
+      REACT_APP_API_BASE_URL: http://localhost:4000
+      REACT_APP_APP_NAME: NoGira
+      REACT_APP_VERSION: '0.1.5'
+      REACT_APP_ENVIRONMENT: self-hosted
+
+volumes:
+  nogira-postgres-data:
+  nogira-core-data:
