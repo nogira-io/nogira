@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.1.7](docs/releases/0.1.7.md) | Development workspace edition (environment, sprint, child table) |
+| [0.1.6](docs/releases/0.1.6.md) | Activity detail rail, planning dates, priority scheme & defaults |
 | [0.1.5](docs/releases/0.1.5.md) | Wiki (workspace pages, markdown, attachments) |
 | [0.1.4](docs/releases/0.1.4.md) | Scrum board (sprints, backlog, metrics) |
 | [0.1.3](docs/releases/0.1.3.md) | Plan view (timeline, milestones, releases) |
