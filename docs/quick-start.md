@@ -1,5 +1,7 @@
 # Quick start
 
+For product overview and positioning, see the [repository README](../README.md).
+
 ## What you get
 
 A **single-node evaluation** stack:

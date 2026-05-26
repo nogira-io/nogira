@@ -1,17 +1,116 @@
+![NoGira banner](docs/assets/nogira-banner.gif)
+
 # NoGira
 
-**Modern self-hosted project management platform.**  
-Built for teams that want control, speed, and simplicity.
+*Community Edition — free, self-hosted operational platform for the AI-agent era*
 
-**Single-node evaluation deployment** — install in minutes with Docker Compose.
+NoGira is a modern self-hosted operational platform designed for enterprises that require flexibility, sovereignty, and AI-ready workflows without the historical limitations of traditional project management systems.
+
+Built from more than 12 years of enterprise delivery experience across multiple industries, NoGira combines modern architecture, simplified operational governance, and flexible workspace modelling into a platform designed for both human and AI-driven collaboration.
+
+**This repository installs the free Community Edition** on your own infrastructure. Advanced capabilities, commercial support, and enterprise deployment options are available separately.
+
+**Your agents | Your servers | Your rules**
+
+---
+
+## Why NoGira Exists
+
+Organisations that depend on self-hosted operational tooling face a narrowing set of viable long-term options. As legacy ALM vendors shift focus away from data-center deployments, teams need an enterprise-grade alternative that preserves sovereignty without inheriting decades of operational complexity.
+
+NoGira addresses that gap with a distributed, container-ready architecture and a workspace-centric model built for modern governance, not a feature checklist aimed at replicating every legacy screen.
+
+This repository is the **Community Edition installer**: a free, single-node Docker Compose path to run NoGira on your infrastructure in minutes, with full control over where data lives and how the platform evolves.
+
+---
+
+## What Makes NoGira Different
+
+### Modern Self-Hosted Platform
+
+Distributed runtime, not a monolith: separate API, web UI, and notification worker containers in this installer, with room for more workers and app marketplace nodes as the platform grows. Docker Compose evaluation today; Kubernetes and private-cloud packaging on the roadmap.
+
+### Enterprise Flexibility Without Legacy Complexity
+
+Published activity workflows, parent and child workspaces, workspace schemes, public or private visibility, and role-based access (Guest, Member, Manager, Owner), structured for real organisational hierarchy without legacy ALM overhead.
+
+### Operational Simplicity at Scale
+
+Workspace permission matrix, instance and per-workspace notification policies, SMTP-backed email delivery, and workspace administration shaped by enterprise delivery experience across industries.
+
+### Unified Operational Workspace
+
+Kanban and Scrum boards, activities, workflows, and workspace wiki in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
+
+### AI-Ready by Architecture *(coming soon)*
+
+**Coming soon:** connect your own LLMs and AI agents on your infrastructure for human and virtual team collaboration, without routing operational data through external SaaS platforms.
+
+---
+
+## Search & Workspace Management
+
+Home dashboard and instance-wide search with URL-persisted filters, bulk selection, CSV export, and structured workspace navigation, a unified operational entry point across teams.
+
+![Home, search, workspaces, and operational overview](docs/assets/nogira-home.gif)
+
+---
+
+## Activities & Workflow Management
+
+Workspace activities with published workflows, custom fields, comments, attachments, and status transitions, with contextual panels on boards plus full detail views for consistent operational execution.
+
+![Activities, workflow, detail, and contextual panels](docs/assets/nogira-activity.gif)
+
+---
+
+## Kanban Boards
+
+Kanban boards map published workflow statuses to configurable columns and colours, with drag-and-drop execution aligned to each workspace's delivery model.
+
+![Kanban, boards, columns, and workflow mapping](docs/assets/nogira-board-kanban.gif)
+
+---
+
+## Scrum Management
+
+Run Scrum with a paginated backlog, planned/active/completed sprint lifecycle, Active Sprint Kanban, Start and Close Sprint flows, Sprint Review with per-assignee activity checklists, retrospectives, story points, and delivery metrics including commitment vs completed work, velocity, scope added after sprint start, and historical trends in activities or story points.
+
+![Scrum, backlog, sprint ceremonies, and delivery metrics](docs/assets/nogira-board-scrum.gif)
+
+---
+
+## Workspace Hierarchy & Governance
+
+Parent and child workspaces with public or private visibility, Owner-led governance, and role-based access (Guest, Member, Manager), organisational hierarchy and isolation without fragmented tooling.
+
+![Workspace hierarchy and governance](docs/assets/nogira-workspace.gif)
+
+---
+
+## Wiki & Documentation
+
+Build hierarchical wiki pages with Markdown editing, file and image attachments, and workspace search. Reparent whole page trees as your structure evolves, and keep documentation alongside boards and activities in one platform. Favorites, tags, and live co-editing are on the roadmap.
+
+![Wiki, pages and Markdown documentation](docs/assets/nogira-wiki.gif)
+
+---
+
+## Architecture Philosophy
+
+NoGira is a **distributed platform**, not a single monolithic service. Runtime roles split across bounded containers: API server (workflows and domain logic), web UI, and a background notification worker. Additional workers and app marketplace nodes are on the roadmap. All share a workspace-centric data model for activities, workflows, boards, and wiki. Community images ship as versioned containers on [Docker Hub](https://hub.docker.com/u/nogira); this installer pins one version across API, UI, and notification worker.
+
+The compose file in this repository targets **single-node evaluation**: straightforward secrets, internal PostgreSQL, and automatic application schema migrations on core startup. Production-style topologies (Kubernetes, private cloud, HA, enterprise governance) are part of the product direction, see [docs/deployment.md](docs/deployment.md) and [docs/roadmap.md](docs/roadmap.md) for what is supported today versus planned.
 
 ---
 
 ## Quick start
 
+Install the **free Community Edition** with Docker Compose.
+
 **Prerequisites:** [Docker](https://docs.docker.com/get-docker/) and Docker Compose v2.
 
-**Container images** are published on [Docker Hub — nogira](https://hub.docker.com/u/nogira) (`nogira/nogira-core`, `nogira/nogira-ui`, `nogira/nogira-notification-worker`). This installer pins a single semver on all three (see `docker-compose.yml`).
+**Community Edition images** are published on [Docker Hub, nogira](https://hub.docker.com/u/nogira) (`nogira/nogira-core`, `nogira/nogira-ui`, `nogira/nogira-notification-worker`). This installer pins a single version on all three (see `docker-compose.yml`).
 
 ```bash
 git clone https://github.com/nogira-io/nogira.git
@@ -21,8 +120,8 @@ cp .env.example .env
 
 Edit `.env` and set:
 
-- `POSTGRES_PASSWORD` — database password (choose a strong value)
-- `JWT_SECRET` — long random string (session signing)
+- `POSTGRES_PASSWORD`, database password (choose a strong value)
+- `JWT_SECRET`, long random string (session signing)
 
 Then start NoGira:
 
@@ -40,25 +139,31 @@ See [docs/quick-start.md](docs/quick-start.md) for more detail.
 
 ## Editions (open core)
 
-| Edition | Description |
-|---------|-------------|
-| **Community** | Core self-hosted platform — workspaces, workflows, boards, and collaboration features shipped in the Community image set |
-| **Enterprise** | Advanced features, SSO, HA, governance, and commercial support — [contact NoGira](https://www.nogira.io) |
+NoGira follows an **open-core** model: a free self-hosted Community Edition and a commercial Enterprise offering.
 
-NoGira follows an **open-core** model. This repository is the **installer**; application source publication will evolve on a separate roadmap.
+| Edition | Price | What you get |
+|---------|-------|--------------|
+| **Community Edition** | **Free** (self-hosted) | Full core platform: workspaces, workflows, Kanban and Scrum boards, wiki, notifications, search, export, and collaboration from the Community image set |
+| **Enterprise** | Commercial | SSO, high availability, advanced governance, and commercial support, [contact NoGira](https://www.nogira.io) |
 
----
-
-## Source code
-
-The public installer repository is available first while the platform stabilises.  
-Application source publication will follow separately as part of the NoGira open-core roadmap.
+This repository is the **Community Edition installer** only. Application source publication will evolve on a separate roadmap. Request early access or a hosted demo at **[www.nogira.io](https://www.nogira.io)**.
 
 ---
 
-## Hosted demo
+## Documentation
 
-Request access to a hosted demo: **https://www.nogira.io** (early access / demo).
+| Doc | Topic |
+|-----|--------|
+| [docs/quick-start.md](docs/quick-start.md) | First install |
+| [docs/deployment.md](docs/deployment.md) | Upgrade, volumes, platform support |
+| [CHANGELOG.md](CHANGELOG.md) | Release index → [docs/releases/](docs/releases/) |
+| [docs/faq.md](docs/faq.md) | Editions, installer vs source |
+
+---
+
+## Roadmap
+
+Forward-looking product direction (shipped vs planned): [docs/roadmap.md](docs/roadmap.md)
 
 ---
 
@@ -77,18 +182,6 @@ See [docs/deployment.md](docs/deployment.md) for volumes, rollback, and PostgreS
 
 ---
 
-## Documentation
-
-| Doc | Topic |
-|-----|--------|
-| [docs/quick-start.md](docs/quick-start.md) | First install |
-| [docs/deployment.md](docs/deployment.md) | Upgrade, volumes, platform support |
-| [CHANGELOG.md](CHANGELOG.md) | Release index → [docs/releases/](docs/releases/) |
-| [docs/faq.md](docs/faq.md) | Editions, installer vs source |
-| [docs/roadmap.md](docs/roadmap.md) | Product direction (high level) |
-
----
-
 ## Support matrix (evaluation)
 
 | Environment | Support |
@@ -102,8 +195,8 @@ See [docs/deployment.md](docs/deployment.md) for volumes, rollback, and PostgreS
 
 ## Legal
 
-- [LICENSE](LICENSE) — Apache-2.0 (installer repository)
-- [SECURITY.md](SECURITY.md) — responsible disclosure
-- [TRADEMARKS.md](TRADEMARKS.md) — brand use
+- [LICENSE](LICENSE), Apache-2.0 (installer repository)
+- [SECURITY.md](SECURITY.md), responsible disclosure
+- [TRADEMARKS.md](TRADEMARKS.md), brand use
 - [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 - [CONTRIBUTING.md](CONTRIBUTING.md)
