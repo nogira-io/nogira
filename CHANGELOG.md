@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.1.8](docs/releases/0.1.8.md) | Home workspace create, user Development workspace policy, Manage Users delete & edit password |
 | [0.1.7](docs/releases/0.1.7.md) | Development workspace edition (environment, sprint, child table) |
 | [0.1.6](docs/releases/0.1.6.md) | Activity detail rail, planning dates, priority scheme & defaults |
 | [0.1.5](docs/releases/0.1.5.md) | Wiki (workspace pages, markdown, attachments) |
