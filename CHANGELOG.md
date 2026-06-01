@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.1.11](docs/releases/0.1.11.md) | NGF-046 polish: global FTS search, My Work deeplinks, Scrum parity, onboarding wizard + catalog v5 |
 | [0.1.10](docs/releases/0.1.10.md) | Hosted/self-hosted catalogue seeds on core startup; workspace create fails loud on template clone errors |
 | [0.1.9](docs/releases/0.1.9.md) | Portfolio workspace templates (SAFe/Waterfall), PHASE rename, simulator portfolioTemplate |
 | [0.1.8](docs/releases/0.1.8.md) | Home workspace create, user Development workspace policy, Manage Users delete & edit password |
