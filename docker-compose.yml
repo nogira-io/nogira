@@ -1,5 +1,5 @@
 # NoGira single-node evaluation stack (NG-600)
-# Images: https://hub.docker.com/u/nogira — edit all three nogira/* tags together on upgrade.
+# Images: https://hub.docker.com/u/nogira — edit all four nogira/* runtime tags together on upgrade.
 # On cicd-release.sh --version X.Y.Z: also update CHANGELOG.md + docs/releases/X.Y.Z.md (see .cursor/rules/devops/nogira-public-installer-release.mdc).
 
 services:
@@ -15,7 +15,7 @@ services:
       - nogira-postgres-data:/var/lib/postgresql/data
 
   nogira-core:
-    image: nogira/nogira-core:0.1.12
+    image: nogira/nogira-core:0.1.13
     container_name: ng-core
     restart: unless-stopped
     depends_on:
@@ -30,11 +30,14 @@ services:
       NOGIRA_STORAGE_ROOT: /data
       CORS_ORIGIN: http://localhost:3000
       FRONTEND_URL: http://localhost:3000
+      MCP_CORE_ROUTES_ENABLED: 'true'
+      NOGIRA_MCP_WRITE_ENABLED: 'true'
+      NOGIRA_MCP_ACTIVITY_WRITE_ENABLED: 'true'
     volumes:
       - nogira-core-data:/data
 
   nogira-notification-worker:
-    image: nogira/nogira-notification-worker:0.1.12
+    image: nogira/nogira-notification-worker:0.1.13
     container_name: ng-notification-worker
     restart: unless-stopped
     depends_on:
@@ -52,7 +55,7 @@ services:
       - nogira-core-data:/data
 
   nogira-ui:
-    image: nogira/nogira-ui:0.1.12
+    image: nogira/nogira-ui:0.1.13
     container_name: ng-ui
     restart: unless-stopped
     depends_on:
@@ -63,8 +66,24 @@ services:
       PORT: '3000'
       REACT_APP_API_BASE_URL: http://localhost:4000
       REACT_APP_APP_NAME: NoGira
-      REACT_APP_VERSION: '0.1.12'
+      REACT_APP_VERSION: '0.1.13'
       REACT_APP_ENVIRONMENT: self-hosted
+
+  nogira-mcp:
+    image: nogira/nogira-mcp:0.1.13
+    container_name: ng-mcp
+    restart: unless-stopped
+    depends_on:
+      - nogira-core
+    ports:
+      - '3100:3100'
+    environment:
+      NOGIRA_MCP_ENABLED: 'true'
+      NOGIRA_CORE_URL: http://nogira-core:4000
+      MCP_TRANSPORT: http
+      MCP_HOST: 0.0.0.0
+      MCP_PORT: '3100'
+      LOG_LEVEL: info
 
 volumes:
   nogira-postgres-data:

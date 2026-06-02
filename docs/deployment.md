@@ -36,15 +36,16 @@ Published images: [hub.docker.com/u/nogira](https://hub.docker.com/u/nogira)
 | `nogira/nogira-core` | API + migrations on startup |
 | `nogira/nogira-ui` | Web UI |
 | `nogira/nogira-notification-worker` | Background notifications |
+| `nogira/nogira-mcp` | MCP server for AI clients (port **3100**) |
 | `nogira/nogira-apps` | Not used by this installer |
 
 ## Upgrading NoGira (application)
 
-All `nogira/*` images in `docker-compose.yml` must use the **same version tag** (for example `0.1.5`). Mixed versions are unsupported.
+All `nogira/*` images in `docker-compose.yml` must use the **same version tag** (for example `0.1.13`). Mixed versions are unsupported.
 
 Read [CHANGELOG.md](../CHANGELOG.md) and the matching file under [docs/releases/](releases/) for what changed in each version.
 
-1. Edit the three image tags in `docker-compose.yml` (`nogira-core`, `nogira-ui`, `nogira-notification-worker`) to the target release.
+1. Edit all runtime image tags in `docker-compose.yml` (`nogira-core`, `nogira-ui`, `nogira-notification-worker`, `nogira-mcp`) and `REACT_APP_VERSION` on the UI service to the target release.
 2. Pull and restart:
 
    ```bash
@@ -111,7 +112,7 @@ Do not commit `.env` to version control.
 
 ## MCP (AI clients)
 
-If you enable NoGira MCP, AI clients connect to the MCP server over HTTP:
+The evaluation stack includes **`nogira-mcp`**. AI clients connect over HTTP:
 
 - Local: `http://localhost:3100/mcp`
 - Hosted: `https://<env>.mcp.nogira.io/mcp`

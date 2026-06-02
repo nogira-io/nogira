@@ -10,6 +10,7 @@ A **single-node evaluation** stack:
 - NoGira Core (API, port **4000**)
 - NoGira UI (port **3000**)
 - Notification worker (background jobs; same data volume as core)
+- NoGira MCP (AI clients, port **3100**)
 
 ## Docker images
 
@@ -20,6 +21,7 @@ NoGira runtime images are on [Docker Hub — nogira](https://hub.docker.com/u/no
 | [nogira/nogira-core](https://hub.docker.com/r/nogira/nogira-core) | Yes |
 | [nogira/nogira-ui](https://hub.docker.com/r/nogira/nogira-ui) | Yes |
 | [nogira/nogira-notification-worker](https://hub.docker.com/r/nogira/nogira-notification-worker) | Yes |
+| [nogira/nogira-mcp](https://hub.docker.com/r/nogira/nogira-mcp) | Yes |
 | [nogira/nogira-apps](https://hub.docker.com/r/nogira/nogira-apps) | No (other topologies) |
 
 `docker compose pull` downloads the pinned tags from `docker-compose.yml`.
@@ -47,6 +49,7 @@ First startup may take one to two minutes while the database initializes and mig
 |---------|-----|
 | UI | http://localhost:3000 |
 | API | http://localhost:4000 |
+| MCP | http://localhost:3100/mcp |
 
 ## Reset (wipe all local data)
 

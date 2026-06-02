@@ -6,7 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
-| [0.1.13](docs/releases/0.1.13.md) | NGF-026 MCP docs: Cursor setup, tools, security notes |
+| [0.1.13](docs/releases/0.1.13.md) | NGF-026 MCP: evaluation compose (`nogira-mcp`), platform images, Cursor/PAT docs |
 | [0.1.12](docs/releases/0.1.12.md) | NGF-046 complete: plan polish, wiki Mermaid, rich activity description, portfolio ↔ development rollup |
 | [0.1.11](docs/releases/0.1.11.md) | NGF-046 polish: global FTS search, My Work deeplinks, Scrum parity, onboarding wizard + catalog v5 |
 | [0.1.10](docs/releases/0.1.10.md) | Hosted/self-hosted catalogue seeds on core startup; workspace create fails loud on template clone errors |
@@ -25,4 +25,4 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 | [0.0.1](docs/releases/0.0.1.md) | Notification system foundation |
 | [0.0.0](docs/releases/0.0.0.md) | Core API and product UI foundation |
 
-**Upgrade:** see [docs/deployment.md](docs/deployment.md). Application schema migrations run automatically on core startup; edit image tags in `docker-compose.yml` together (same semver on core, UI, and notification-worker).
+**Upgrade:** see [docs/deployment.md](docs/deployment.md). Application schema migrations run automatically on core startup; edit image tags in `docker-compose.yml` together (same semver on core, UI, notification-worker, and nogira-mcp).
