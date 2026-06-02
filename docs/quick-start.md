@@ -60,4 +60,5 @@ You will need to run the setup wizard again.
 ## Next steps
 
 - [deployment.md](deployment.md) — upgrades, volumes, PostgreSQL notes
+- [mcp.md](mcp.md) — connect Cursor/AI clients via MCP
 - [faq.md](faq.md) — editions and open core

@@ -109,4 +109,13 @@ Do not commit `.env` to version control.
 - pgAdmin, external PostgreSQL, reverse proxy, SMTP in compose
 - High availability or Kubernetes manifests
 
+## MCP (AI clients)
+
+If you enable NoGira MCP, AI clients connect to the MCP server over HTTP:
+
+- Local: `http://localhost:3100/mcp`
+- Hosted: `https://<env>.mcp.nogira.io/mcp`
+
+See [mcp.md](mcp.md) for client setup and available tools.
+
 For Enterprise deployment options, contact NoGira via [www.nogira.io](https://www.nogira.io).
