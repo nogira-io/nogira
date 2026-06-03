@@ -96,6 +96,24 @@ Build hierarchical wiki pages with Markdown editing, file and image attachments,
 
 ---
 
+## MCP Server
+
+Connect local AI agents (Cursor, Claude Desktop, and other MCP clients) to your **self-hosted** NoGira instance over Streamable HTTP. Create a **Personal Access Token** in the UI, point the client at `http://localhost:3100/mcp`, and use tools to search activities and wiki, read and update work items — same permissions as your account, with data staying on your infrastructure.
+
+See [docs/mcp.md](docs/mcp.md) for URLs, auth, tool list, and Cursor setup.
+
+![MCP — Personal Access Tokens and AI client connection](docs/assets/nogira-mcp.gif)
+
+---
+
+## Challenge game
+
+Run **live event challenges** to onboard teams in an interactive way: presenters create sessions with join tokens, open a player queue, and tie missions to workspace activities. Attendees join from the profile menu or a share link, complete missions in a HUD, and see results on the leaderboard — ideal for workshops, conferences, and guided “learn by doing” sessions.
+
+![Challenges — admin sessions, join tokens, and live missions](docs/assets/nogira-challenge.gif)
+
+---
+
 ## Architecture Philosophy
 
 NoGira is a **distributed platform**, not a single monolithic service. Runtime roles split across bounded containers: API server (workflows and domain logic), web UI, and a background notification worker. Additional workers and app marketplace nodes are on the roadmap. All share a workspace-centric data model for activities, workflows, boards, and wiki. Community images ship as versioned containers on [Docker Hub](https://hub.docker.com/u/nogira); this installer pins one version across API, UI, and notification worker.
@@ -155,6 +173,7 @@ This repository is the **Community Edition installer** only. Application source 
 | Doc | Topic |
 |-----|--------|
 | [docs/quick-start.md](docs/quick-start.md) | First install |
+| [docs/mcp.md](docs/mcp.md) | MCP server, PAT auth, Cursor setup |
 | [docs/deployment.md](docs/deployment.md) | Upgrade, volumes, platform support |
 | [CHANGELOG.md](CHANGELOG.md) | Release index → [docs/releases/](docs/releases/) |
 | [docs/faq.md](docs/faq.md) | Editions, installer vs source |
