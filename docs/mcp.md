@@ -60,8 +60,11 @@ Restart Cursor. Then in Cursor Chat, try:
 - Revoke tokens you don’t need.
 - Do not paste PATs in screenshots, issues, or docs.
 
-## Screenshots (coming soon)
+## Screenshots
 
-- MCP setup in Cursor
-- PAT creation in NoGira Account Center
+![Personal Access Tokens and MCP in Cursor](../assets/nogira-mcp.gif)
+
+*Create a PAT under **Manage Account → Personal Access Tokens**, then point Cursor (or another MCP client) at `http://localhost:3100/mcp` with `Authorization: Bearer <ng_pat_*>`.*
+
+Do not paste real PATs in screenshots, issues, or docs.
 

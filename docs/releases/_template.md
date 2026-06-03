@@ -2,6 +2,12 @@
 
 **Release date:** YYYY-MM-DD
 
+## Screenshots
+
+![Short alt text](../assets/nogira-example.gif)
+
+*One-line caption describing what the animation shows.*
+
 ## Added
 
 -
