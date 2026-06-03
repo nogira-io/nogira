@@ -12,6 +12,19 @@ Built from more than 12 years of enterprise delivery experience across multiple 
 
 **Your agents | Your servers | Your rules**
 
+## Quick Links
+
+| Resource | Description |
+|----------|-------------|
+| [Quick Start](docs/quick-start.md) | Install NoGira in minutes |
+| [Deployment Guide](docs/deployment.md) | Upgrades, volumes, platform support |
+| [MCP Server](docs/mcp.md) | Connect Cursor, Claude Desktop and AI clients |
+| [Challenge Game](docs/event-challenges.md) | Interactive onboarding and training |
+| [Roadmap](docs/roadmap.md) | Product direction and upcoming capabilities |
+| [Release Notes](CHANGELOG.md) | Version history and releases |
+| [FAQ](docs/faq.md) | Common questions |
+| [Website](https://www.nogira.io) | Product, early access, and Enterprise |
+
 ---
 
 ## Why NoGira Exists
@@ -25,6 +38,8 @@ This repository is the **Community Edition installer**: a free, single-node Dock
 ---
 
 ## What Makes NoGira Different
+
+Unlike traditional ALM platforms, NoGira was designed from the beginning for workspace hierarchies, portfolio visibility, self-hosted deployments, and AI-assisted operational workflows.
 
 ### Modern Self-Hosted Platform
 
@@ -40,11 +55,12 @@ Workspace permission matrix, instance and per-workspace notification policies, S
 
 ### Unified Operational Workspace
 
-Kanban and Scrum boards, activities, workflows, and workspace wiki in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
+Kanban and Scrum boards, activities, workflows, workspace hierarchy, portfolio workspaces, full-text search, saved views, notifications, and workspace wiki in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
 
-### AI-Ready by Architecture *(coming soon)*
+### AI-Ready by Architecture
 
-**Coming soon:** connect your own LLMs and AI agents on your infrastructure for human and virtual team collaboration, without routing operational data through external SaaS platforms.
+NoGira already exposes an **MCP Server** for AI clients such as Cursor and Claude Desktop.
+Future releases will introduce AI-assisted planning, AI-powered documentation, self-hosted LLM integration, and agent-driven operational workflows while keeping data under your control.
 
 ---
 
@@ -110,6 +126,8 @@ See [docs/mcp.md](docs/mcp.md) for URLs, auth, tool list, and Cursor setup.
 
 Run **live event challenges** to onboard teams in an interactive way: presenters create sessions with join tokens, open a player queue, and tie missions to workspace activities. Attendees join from the profile menu or a share link, complete missions in a HUD, and see results on the leaderboard — ideal for workshops, conferences, and guided “learn by doing” sessions.
 
+See **[docs/event-challenges.md](docs/event-challenges.md)** for a step-by-step **admin guide** (first-time presenters).
+
 ![Challenges — admin sessions, join tokens, and live missions](docs/assets/nogira-challenge.gif)
 
 ---
@@ -162,7 +180,7 @@ NoGira follows an **open-core** model: a free self-hosted Community Edition and 
 | Edition | Price | What you get |
 |---------|-------|--------------|
 | **Community Edition** | **Free** (self-hosted) | Full core platform: workspaces, workflows, Kanban and Scrum boards, wiki, notifications, search, export, and collaboration from the Community image set |
-| **Enterprise** | Commercial | SSO, high availability, advanced governance, and commercial support, [contact NoGira](https://www.nogira.io) |
+| **Enterprise** | Commercial | LDAP, SAML/OIDC, advanced governance, enterprise licensing, high availability, marketplace capabilities, and commercial support — [contact NoGira](https://www.nogira.io) |
 
 This repository is the **Community Edition installer** only. Application source publication will evolve on a separate roadmap. Request early access or a hosted demo at **[www.nogira.io](https://www.nogira.io)**.
 
@@ -174,15 +192,11 @@ This repository is the **Community Edition installer** only. Application source 
 |-----|--------|
 | [docs/quick-start.md](docs/quick-start.md) | First install |
 | [docs/mcp.md](docs/mcp.md) | MCP server, PAT auth, Cursor setup |
+| [docs/event-challenges.md](docs/event-challenges.md) | Live event challenges — admin runbook |
 | [docs/deployment.md](docs/deployment.md) | Upgrade, volumes, platform support |
+| [docs/roadmap.md](docs/roadmap.md) | Product roadmap |
 | [CHANGELOG.md](CHANGELOG.md) | Release index → [docs/releases/](docs/releases/) |
 | [docs/faq.md](docs/faq.md) | Editions, installer vs source |
-
----
-
-## Roadmap
-
-Forward-looking product direction (shipped vs planned): [docs/roadmap.md](docs/roadmap.md)
 
 ---
 

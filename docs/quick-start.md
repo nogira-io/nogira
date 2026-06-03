@@ -64,4 +64,5 @@ You will need to run the setup wizard again.
 
 - [deployment.md](deployment.md) — upgrades, volumes, PostgreSQL notes
 - [mcp.md](mcp.md) — connect Cursor/AI clients via MCP
+- [event-challenges.md](event-challenges.md) — run a live event challenge (admin)
 - [faq.md](faq.md) — editions and open core

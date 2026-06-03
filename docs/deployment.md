@@ -41,7 +41,7 @@ Published images: [hub.docker.com/u/nogira](https://hub.docker.com/u/nogira)
 
 ## Upgrading NoGira (application)
 
-All `nogira/*` images in `docker-compose.yml` must use the **same version tag** (for example `0.1.13`). Mixed versions are unsupported.
+All `nogira/*` images in `docker-compose.yml` must use the **same version tag** (for example `0.1.14`). Mixed versions are unsupported.
 
 Read [CHANGELOG.md](../CHANGELOG.md) and the matching file under [docs/releases/](releases/) for what changed in each version.
 
