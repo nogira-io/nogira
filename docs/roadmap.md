@@ -27,6 +27,7 @@ For version history of what shipped in each installer release, see [CHANGELOG.md
 
 ### Knowledge management
 
+- **Workspace whiteboards** — visual collaboration canvas per workspace (sticky notes, shapes, connectors, images, realtime co-editing, autosave) — **NGF-052**
 - **Workspace wiki** — hierarchical pages, Markdown editing, attachments, and workspace search
 - **Wiki Mermaid** diagrams in pages
 - **Rich activity descriptions** (Markdown) on detail and browse surfaces

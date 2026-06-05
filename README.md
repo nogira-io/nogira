@@ -55,7 +55,7 @@ Workspace permission matrix, instance and per-workspace notification policies, S
 
 ### Unified Operational Workspace
 
-Kanban and Scrum boards, activities, workflows, workspace hierarchy, portfolio workspaces, full-text search, saved views, notifications, and workspace wiki in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
+Kanban and Scrum boards, activities, workflows, workspace hierarchy, portfolio workspaces, full-text search, saved views, notifications, workspace wiki, and workspace whiteboards in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
 
 ### AI-Ready by Architecture
 
@@ -109,6 +109,14 @@ Parent and child workspaces with public or private visibility, Owner-led governa
 Build hierarchical wiki pages with Markdown editing, file and image attachments, and workspace search. Reparent whole page trees as your structure evolves, and keep documentation alongside boards and activities in one platform. Favorites, tags, and live co-editing are on the roadmap.
 
 ![Wiki, pages and Markdown documentation](docs/assets/nogira-wiki.gif)
+
+---
+
+## Workspace Whiteboards
+
+Brainstorm, sketch architectures, map processes, and collaborate visually on an infinite canvas inside each workspace. Create sticky notes, text, shapes, connectors, and images; pan and zoom; connect shapes with arrows; edit together in real time with presence indicators; changes autosave to your instance. Star boards from the workspace list and open them from **Home → Favorites → Whiteboards**.
+
+![Workspace whiteboards — list, editor, and collaboration](docs/assets/nogira-whiteboards.gif)
 
 ---
 
