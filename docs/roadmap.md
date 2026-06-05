@@ -47,7 +47,9 @@ For version history of what shipped in each installer release, see [CHANGELOG.md
 - **Global and workspace permission matrices** — configurable RBAC with audit-friendly changes
 - **Workspace lifecycle** — archive, restore, and governed permanent purge for workspaces
 - **Board archive** (soft) on the boards hub
-- **Account center** — profile, password, avatar, and workspace memberships
+- **Account center** — profile, password, avatar, workspace memberships, and **self-service delete account** (**NGF-051**)
+- **User lifecycle** — **ACTIVE** / **ARCHIVED** / **ANONYMIZED**; admin archive, restore, and anonymize on **Manage Users**; account **source of creation** column (**NGF-051**)
+- **Instance privacy settings** — toggles for account deletion, user archiving, anonymization, and onboarding wizard (**NGF-051**)
 - **Personal Access Tokens** for API, CLI, and MCP clients
 
 ### AI and integration

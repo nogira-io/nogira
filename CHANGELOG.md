@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.1.16](docs/releases/0.1.16.md) | NG-713.4 Manage Users full name column and Edit User full name editing |
+| [0.1.15](docs/releases/0.1.15.md) | NGF-051 user lifecycle (self-delete, archive/anonymize, Manage Users source column, wizard gate, email reuse fix) |
 | [0.1.14](docs/releases/0.1.14.md) | NGF-048 Event Challenge Engine (presenter/attendee flows, PlatformEvent scoring) |
 | [0.1.13](docs/releases/0.1.13.md) | NGF-026 MCP (`nogira-mcp`, PAT/Cursor docs) |
 | [0.1.12](docs/releases/0.1.12.md) | NGF-046 complete: plan polish, wiki Mermaid, rich activity description, portfolio ↔ development rollup |
