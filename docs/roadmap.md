@@ -28,6 +28,7 @@ For version history of what shipped in each installer release, see [CHANGELOG.md
 ### Knowledge management
 
 - **Workspace whiteboards** — visual collaboration canvas per workspace (sticky notes, shapes, connectors, images, realtime co-editing, autosave) — **NGF-052**
+- **Workspace element archive** — soft-archive and restore activities, wiki pages, and whiteboards inside a workspace; dedicated Archive page with bulk restore and permanent delete — **NGF-044**
 - **Workspace wiki** — hierarchical pages, Markdown editing, attachments, and workspace search
 - **Wiki Mermaid** diagrams in pages
 - **Rich activity descriptions** (Markdown) on detail and browse surfaces
@@ -73,8 +74,6 @@ The sections below describe what we intend to build next. Ordering across themes
 
 ### Collaboration and knowledge
 
-- Archive and restore **activities** (**NGF-044**)
-- Archive and restore **wiki pages** with consistent “Archive” terminology (**NGF-044**)
 - Activity ↔ wiki linking
 - Wiki **page version history**
 - Rich wiki macros (engineering-focused, not a Confluence clone)

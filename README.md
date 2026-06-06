@@ -120,6 +120,14 @@ Brainstorm, sketch architectures, map processes, and collaborate visually on an 
 
 ---
 
+## Workspace Archive
+
+Soft-archive individual activities, wiki pages, and whiteboards inside a workspace without deleting the workspace itself. Open **Archive** from the workspace sidebar to browse archived elements by type, bulk restore items, or permanently delete them with typed confirmation. Archive from search, activity lists, boards, wiki, and whiteboard menus; archived content stays out of search and active boards. Users with **View Archive** permission can open archived items read-only; others see a restricted access message.
+
+![Workspace Archive — browse, restore, and manage archived elements](docs/assets/nogira-archive.gif)
+
+---
+
 ## MCP Server
 
 Connect local AI agents (Cursor, Claude Desktop, and other MCP clients) to your **self-hosted** NoGira instance over Streamable HTTP. Create a **Personal Access Token** in the UI, point the client at `http://localhost:3100/mcp`, and use tools to search activities and wiki, read and update work items — same permissions as your account, with data staying on your infrastructure.
