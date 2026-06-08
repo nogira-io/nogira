@@ -11,5 +11,6 @@
 | `nogira-wiki.gif` | README — Wiki |
 | `nogira-whiteboards.gif` | README + `docs/releases/0.1.17.md` — Workspace whiteboards |
 | `nogira-archive.gif` | README + `docs/releases/0.1.18.md` — Workspace Archive |
+| `nogira-links.gif` | README + `docs/releases/0.1.19.md` — Relationships & traceability |
 | `nogira-mcp.gif` | README — MCP |
 | `nogira-challenge.gif` | README — Challenge game |

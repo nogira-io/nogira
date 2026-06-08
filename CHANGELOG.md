@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.1.19](docs/releases/0.1.19.md) | NGF-062 Relationships & traceability (NG-719 P1–P7, NG-720, NGB-054) |
 | [0.1.18](docs/releases/0.1.18.md) | NGF-044 Archive elements in workspace (NG-715 P1–P6, NGB-052) |
 | [0.1.17](docs/releases/0.1.17.md) | NGF-052 Workspace Whiteboards (NG-714 P1–P7) |
 | [0.1.16](docs/releases/0.1.16.md) | NG-713.4 Manage Users full name column and Edit User full name editing |

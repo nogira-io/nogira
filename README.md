@@ -55,7 +55,7 @@ Workspace permission matrix, instance and per-workspace notification policies, S
 
 ### Unified Operational Workspace
 
-Kanban and Scrum boards, activities, workflows, workspace hierarchy, portfolio workspaces, full-text search, saved views, notifications, workspace wiki, and workspace whiteboards in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
+Kanban and Scrum boards, activities, workflows, workspace hierarchy, portfolio workspaces, full-text search, saved views, notifications, workspace wiki, workspace whiteboards, and cross-entity **Links** (dependencies, documentation traceability, plan lines) in one operational model. **Coming soon:** app marketplace integrations and additional background workers.
 
 ### AI-Ready by Architecture
 
@@ -128,6 +128,14 @@ Soft-archive individual activities, wiki pages, and whiteboards inside a workspa
 
 ---
 
+## Relationships & Traceability
+
+Link work items to each other and to wiki pages and whiteboards with system-defined relationship types — without a separate issue-link admin layer. On activity detail, use **Links** to add **Blocks**, **Relates To**, or **Duplicates** between activities; **Specification**, **Design**, or **Reference** to wiki pages; and **Reference** to whiteboards. See direct and transitive **Impact** from **Blocks** dependencies, automatic **Used by activities** and **Referenced by** sidebars on wiki and whiteboards, and **Blocks** dependency lines on the workspace **Plan** timeline. Insert activity references from wiki and whiteboard editors with `/activity`; archive and purge flows warn when inbound links exist.
+
+![Activity Links — dependencies, knowledge, whiteboards, and plan lines](docs/assets/nogira-links.gif)
+
+---
+
 ## MCP Server
 
 Connect local AI agents (Cursor, Claude Desktop, and other MCP clients) to your **self-hosted** NoGira instance over Streamable HTTP. Create a **Personal Access Token** in the UI, point the client at `http://localhost:3100/mcp`, and use tools to search activities and wiki, read and update work items — same permissions as your account, with data staying on your infrastructure.
@@ -195,7 +203,7 @@ NoGira follows an **open-core** model: a free self-hosted Community Edition and 
 
 | Edition | Price | What you get |
 |---------|-------|--------------|
-| **Community Edition** | **Free** (self-hosted) | Full core platform: workspaces, workflows, Kanban and Scrum boards, wiki, notifications, search, export, and collaboration from the Community image set |
+| **Community Edition** | **Free** (self-hosted) | Full core platform: workspaces, workflows, Kanban and Scrum boards, wiki, whiteboards, activity Links and traceability, notifications, search, export, and collaboration from the Community image set |
 | **Enterprise** | Commercial | LDAP, SAML/OIDC, advanced governance, enterprise licensing, high availability, marketplace capabilities, and commercial support — [contact NoGira](https://www.nogira.io) |
 
 This repository is the **Community Edition installer** only. Application source publication will evolve on a separate roadmap. Request early access or a hosted demo at **[www.nogira.io](https://www.nogira.io)**.
