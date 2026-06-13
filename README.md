@@ -18,6 +18,8 @@ Built from more than 12 years of enterprise delivery experience across multiple 
 |----------|-------------|
 | [Quick Start](docs/quick-start.md) | Install NoGira in minutes |
 | [Deployment Guide](docs/deployment.md) | Upgrades, volumes, platform support |
+| [Wiki guide](docs/wiki.md) | Pages, block editor, slash commands, sidebar |
+| [Wiki macros](docs/wiki-macros.md) | `{{toc}}`, child pages, callouts, activity list |
 | [MCP Server](docs/mcp.md) | Connect Cursor, Claude Desktop and AI clients |
 | [Challenge Game](docs/event-challenges.md) | Interactive onboarding and training |
 | [Roadmap](docs/roadmap.md) | Product direction and upcoming capabilities |
@@ -106,9 +108,9 @@ Parent and child workspaces with public or private visibility, Owner-led governa
 
 ## Wiki & Documentation
 
-Build hierarchical wiki pages with Markdown editing, file and image attachments, and workspace search. Reparent whole page trees as your structure evolves, and keep documentation alongside boards and activities in one platform. Favorites, tags, and live co-editing are on the roadmap.
+Build hierarchical wiki pages with a **block editor**, **macros** (`{{toc}}`, `{{child-pages}}`, callouts, activity and attachment lists), file and image attachments, and a **Page Context Sidebar** (links, attachments, comments, contents, history). Reparent pages via **Change parent** or tree drag-and-drop; navigation state persists per user. See the **[Wiki guide](docs/wiki.md)** and **[Wiki macros](docs/wiki-macros.md)**.
 
-![Wiki, pages and Markdown documentation](docs/assets/nogira-wiki.gif)
+![Wiki block editor, macros, and Page Context Sidebar](docs/assets/nogira-wiki-macros.gif)
 
 ---
 
