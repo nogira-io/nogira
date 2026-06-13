@@ -4,7 +4,7 @@ NoGira wiki pages live inside each workspace. Use them for runbooks, specs, onbo
 
 This guide covers **creating and editing pages**, the **block editor**, **formatting**, **slash commands**, and the **Page Context Sidebar**. For macro syntax and configuration, see **[Wiki macros](wiki-macros.md)**.
 
-> Shipped in **NoGira 0.2.0** (NGF-067). Requires a workspace with **View Wiki** permission; editing needs **Edit Wiki**; reparenting and tree drag-and-drop need **Manage Wiki**.
+> Shipped in **NoGira 0.2.0** (NGF-067); layout polish in **0.2.1** (NG-721-P9). Requires a workspace with **View Wiki** permission; editing needs **Edit Wiki**; reparenting and tree drag-and-drop need **Manage Wiki**.
 
 ## Open the wiki
 

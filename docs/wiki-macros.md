@@ -411,4 +411,5 @@ Static PNGs for this guide live under [`docs/assets/wiki/`](assets/wiki/). See [
 |-----|--------|
 | [Wiki guide](wiki.md) | Pages, editor modes, slash menu, sidebar, tree |
 | [MCP Server](mcp.md) | Programmatic read/update via AI clients |
+| [Release 0.2.1](releases/0.2.1.md) | Wiki layout polish (NG-721-P9): tree width, collapsible tree, Escape dismiss |
 | [Release 0.2.0](releases/0.2.0.md) | Wiki navigation & collaboration release notes |
