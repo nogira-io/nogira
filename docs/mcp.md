@@ -43,9 +43,38 @@ The MCP server forwards auth to the NoGira API. The API validates the PAT and en
 
 - `searchEverything` — search wiki + activities (title + short summary)
 - `getWikiPage`
+- `createWikiPage` — create wiki page (optional parent)
 - `updateWikiPage` — full body replace
+- `changeWikiPageParent` — reparent wiki page
+- `uploadWikiAttachment` — upload file (base64); returns `suggestedMarkup` for images
+- `listWikiPageAttachments` — list page attachments
+- `replaceWikiAttachmentContent` — replace file bytes (same `attachmentId`)
+- `deleteWikiAttachment` — delete attachment (blocks when referenced in markdown by default)
 - `getActivity`
 - `updateActivity` — UI-parity update surface
+
+## Wiki images via MCP (NG-721-P11)
+
+Repo-relative markdown images (`![](assets/…)`) do not render on hosted wiki. Use attachments:
+
+```text
+1. uploadWikiAttachment({ pageId, fileName, mimeType, contentBase64, alt? })
+   → attachmentId + suggestedMarkup
+2. Embed suggestedMarkup in body (or replace ![](path) refs)
+3. updateWikiPage({ pageId, body })
+```
+
+Canonical image markup:
+
+```html
+<figure class="nogira-img-align-center">
+  <img src="/api/wiki/attachments/{id}/download?variant=preview" width="700" alt="…" />
+</figure>
+```
+
+Images render in the UI via authenticated fetch (`WikiAuthImage` + JWT), not public storage URLs.
+
+For demo/UAT wiki sync, use MCP tools directly (see `.cursor/rules/core/mcp-wiki-sync.mdc`): upload attachments per page, rewrite `![](path)` to `suggestedMarkup`, then `updateWikiPage`.
 
 ## Cursor setup (header auth)
 
