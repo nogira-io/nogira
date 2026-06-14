@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.3.1](docs/releases/0.3.1.md) | NG-722 P4–P7 UI follow-on (NGF-079): nav/wiki shell persistence, create-activity stay-in-context, semantic toasts, wiki tree toast feedback |
+| [0.3.0](docs/releases/0.3.0.md) | NGF-079 MCP activity operations foundation (NG-722): safe activity create/update/move/transition/comment/link/archive/restore, workspace context, and idempotent external metadata |
 | [0.2.2](docs/releases/0.2.2.md) | NGF-026/067 MCP wiki attachment images (NG-721-P11): upload/list/replace/delete + figure markup sync |
 | [0.2.1](docs/releases/0.2.1.md) | NGF-067 wiki layout polish (NG-721-P9): 320px tree, 240px nav, collapsible tree, Escape dismiss, tree menu z-index |
 | [0.2.0](docs/releases/0.2.0.md) | NGF-067 Wiki navigation & collaboration (NG-721 P1–P8): sidebar, macros, Change Parent, DnD, MCP reparent |
