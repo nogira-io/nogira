@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.3.2](docs/releases/0.3.2.md) | NG-723 (NGF-044/NGF-017): workspace `/plan` excludes archived activities; portfolio plan rollup aligned |
 | [0.3.1](docs/releases/0.3.1.md) | NG-722 P4–P7 UI follow-on (NGF-079): nav/wiki shell persistence, create-activity stay-in-context, semantic toasts, wiki tree toast feedback |
 | [0.3.0](docs/releases/0.3.0.md) | NGF-079 MCP activity operations foundation (NG-722): safe activity create/update/move/transition/comment/link/archive/restore, workspace context, and idempotent external metadata |
 | [0.2.2](docs/releases/0.2.2.md) | NGF-026/067 MCP wiki attachment images (NG-721-P11): upload/list/replace/delete + figure markup sync |
