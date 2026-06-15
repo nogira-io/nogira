@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.3.5](docs/releases/0.3.5.md) | NG-722 P13 (NGF-079): ASSIGNABLE_USER assignee scoping, Scrum backlog all-types, /activities expansion + Priority default column; NGB-055 open for rank DnD |
+| [0.3.4](docs/releases/0.3.4.md) | NG-722 P11/P12 (NGF-079): date-based dependency warnings and ghost schedule bars for unscheduled Plan rows |
 | [0.3.3](docs/releases/0.3.3.md) | NG-722 P8/P10 (NGF-079): Plan Board timeline editing, direct dependency creation, dependency details dropdown, and connector polish |
 | [0.3.2](docs/releases/0.3.2.md) | NG-723 (NGF-044/NGF-017): workspace `/plan` excludes archived activities; portfolio plan rollup aligned |
 | [0.3.1](docs/releases/0.3.1.md) | NG-722 P4–P7 UI follow-on (NGF-079): nav/wiki shell persistence, create-activity stay-in-context, semantic toasts, wiki tree toast feedback |
