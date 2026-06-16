@@ -14,5 +14,7 @@
 | `nogira-whiteboards.gif` | README + `docs/releases/0.1.17.md` — Workspace whiteboards |
 | `nogira-archive.gif` | README + `docs/releases/0.1.18.md` — Workspace Archive |
 | `nogira-links.gif` | README + `docs/releases/0.1.19.md` — Relationships & traceability |
+| `nogira-0.3.0-mcp-activity-ops-foundation.gif` | `docs/releases/0.3.0.md` — MCP activity operations foundation |
+| `nogira-plan-dependency-editing.gif` | `docs/releases/0.3.0.md` (series index) + `docs/releases/0.3.3.md` — Plan Board dependency editing |
 | `nogira-mcp.gif` | README — MCP |
 | `nogira-challenge.gif` | README — Challenge game |

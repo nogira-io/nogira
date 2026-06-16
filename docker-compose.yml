@@ -15,7 +15,7 @@ services:
       - nogira-postgres-data:/var/lib/postgresql/data
 
   nogira-core:
-    image: nogira/nogira-core:0.3.1
+    image: nogira/nogira-core:0.3.6
     container_name: ng-core
     restart: unless-stopped
     depends_on:
@@ -37,7 +37,7 @@ services:
       - nogira-core-data:/data
 
   nogira-notification-worker:
-    image: nogira/nogira-notification-worker:0.3.1
+    image: nogira/nogira-notification-worker:0.3.6
     container_name: ng-notification-worker
     restart: unless-stopped
     depends_on:
@@ -55,7 +55,7 @@ services:
       - nogira-core-data:/data
 
   nogira-ui:
-    image: nogira/nogira-ui:0.3.1
+    image: nogira/nogira-ui:0.3.6
     container_name: ng-ui
     restart: unless-stopped
     depends_on:
@@ -66,11 +66,11 @@ services:
       PORT: '3000'
       REACT_APP_API_BASE_URL: http://localhost:4000
       REACT_APP_APP_NAME: NoGira
-      REACT_APP_VERSION: '0.3.1'
+      REACT_APP_VERSION: '0.3.6'
       REACT_APP_ENVIRONMENT: self-hosted
 
   nogira-mcp:
-    image: nogira/nogira-mcp:0.3.1
+    image: nogira/nogira-mcp:0.3.6
     container_name: ng-mcp
     restart: unless-stopped
     depends_on:
