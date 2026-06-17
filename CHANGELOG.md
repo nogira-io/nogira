@@ -6,7 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
-| [0.3.6](docs/releases/0.3.6.md) | NG-722 P14 (NGF-079): wiki Export to PDF from page actions menu; puppeteer-core + Chromium in core image |
+| [0.3.7](docs/releases/0.3.7.md) | NG-722 P16–P21 (NGF-067/079): wiki Configure block editor — separator canonicalization, active surface, format toolbar, inter-block boundaries, block-insert split, textarea autosize; NGB-056–059 fixed |
 | [0.3.5](docs/releases/0.3.5.md) | NG-722 P13 (NGF-079): ASSIGNABLE_USER assignee scoping, Scrum backlog all-types, /activities expansion + Priority default column; NGB-055 open for rank DnD |
 | [0.3.4](docs/releases/0.3.4.md) | NG-722 P11/P12 (NGF-079): date-based dependency warnings and ghost schedule bars for unscheduled Plan rows |
 | [0.3.3](docs/releases/0.3.3.md) | NG-722 P8/P10 (NGF-079): Plan Board timeline editing, direct dependency creation, dependency details dropdown, and connector polish |
