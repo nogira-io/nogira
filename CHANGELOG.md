@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.4.0](docs/releases/0.4.0.md) | NG-724 P1/P4/P5-C/P11 (NGF-080/014): Agent Task + MOBA workflow seeds, Blocks propagation, stale JWT → login auth fix, MCP parent/children + typed links tools; companion: MOBA overwrite control + NG-725 MCP delivery toolkit |
 | [0.3.7](docs/releases/0.3.7.md) | NG-722 P16–P21 (NGF-067/079): wiki Configure block editor — separator canonicalization, active surface, format toolbar, inter-block boundaries, block-insert split, textarea autosize; NGB-056–059 fixed |
 | [0.3.5](docs/releases/0.3.5.md) | NG-722 P13 (NGF-079): ASSIGNABLE_USER assignee scoping, Scrum backlog all-types, /activities expansion + Priority default column; NGB-055 open for rank DnD |
 | [0.3.4](docs/releases/0.3.4.md) | NG-722 P11/P12 (NGF-079): date-based dependency warnings and ghost schedule bars for unscheduled Plan rows |
