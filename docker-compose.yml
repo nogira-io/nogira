@@ -32,7 +32,6 @@ services:
       FRONTEND_URL: http://localhost:3000
       MCP_CORE_ROUTES_ENABLED: 'true'
       NOGIRA_MCP_WRITE_ENABLED: 'true'
-      NOGIRA_MCP_ACTIVITY_WRITE_ENABLED: 'true'
     volumes:
       - nogira-core-data:/data
 
