@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.3.9](docs/releases/0.3.9.md) | NG-726-P12–P14 mobile challenge integration, activity feed fixes, and replaceable step images (NGF-082) |
+| [0.3.8](docs/releases/0.3.8.md) | NG-726 mobile web shell for activities, wiki, and whiteboards (NGF-082) |
 | [0.2.2](docs/releases/0.2.2.md) | NGF-026/067 MCP wiki attachment images (NG-721-P11): upload/list/replace/delete + figure markup sync |
 | [0.2.1](docs/releases/0.2.1.md) | NGF-067 wiki layout polish (NG-721-P9): 320px tree, 240px nav, collapsible tree, Escape dismiss, tree menu z-index |
 | [0.2.0](docs/releases/0.2.0.md) | NGF-067 Wiki navigation & collaboration (NG-721 P1–P8): sidebar, macros, Change Parent, DnD, MCP reparent |
