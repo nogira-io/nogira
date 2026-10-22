@@ -4,10 +4,21 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 ## Releases
 
+**Active installer version:** [0.3.9](docs/releases/0.3.9.md). [0.4.0](docs/releases/0.4.0.md) is **paused**: the Agent Task and MOBA workflow slice is partially implemented; the full MOBA board and agents remain paused.
+
 | Version | Release notes |
 |---------|----------------|
-| [0.3.9](docs/releases/0.3.9.md) | NG-726-P12–P14 mobile challenge integration, activity feed fixes, and replaceable step images (NGF-082) |
+| [0.4.0](docs/releases/0.4.0.md) | **Paused** — partially implemented (NG-724 P1/P4/P5-C/P11, NGF-080/014: Agent Task + MOBA workflow seeds, Blocks propagation, stale JWT → login auth fix, MCP parent/children + typed links; companion: MOBA overwrite control + NG-725 MCP delivery toolkit). Full MOBA board and agents remain paused. |
+| [0.3.9](docs/releases/0.3.9.md) | **Active** — NG-726-P12–P14 mobile challenge integration, activity feed fixes, and replaceable step images (NGF-082) |
 | [0.3.8](docs/releases/0.3.8.md) | NG-726 mobile web shell for activities, wiki, and whiteboards (NGF-082) |
+| [0.3.7](docs/releases/0.3.7.md) | NG-722 P16–P21 (NGF-067/079): wiki Configure block editor — separator canonicalization, active surface, format toolbar, inter-block boundaries, block-insert split, textarea autosize; NGB-056–059 fixed |
+| [0.3.6](docs/releases/0.3.6.md) | NG-722 P14 (NGF-079): wiki Export to PDF from the page header actions menu |
+| [0.3.5](docs/releases/0.3.5.md) | NG-722 P13 (NGF-079): ASSIGNABLE_USER assignee scoping, Scrum backlog all-types, /activities expansion + Priority default column; NGB-055 open for rank DnD |
+| [0.3.4](docs/releases/0.3.4.md) | NG-722 P11/P12 (NGF-079): date-based dependency warnings and ghost schedule bars for unscheduled Plan rows |
+| [0.3.3](docs/releases/0.3.3.md) | NG-722 P8/P10 (NGF-079): Plan Board timeline editing, direct dependency creation, dependency details dropdown, and connector polish |
+| [0.3.2](docs/releases/0.3.2.md) | NG-723 (NGF-044/NGF-017): workspace `/plan` excludes archived activities; portfolio plan rollup aligned |
+| [0.3.1](docs/releases/0.3.1.md) | NG-722 P4–P7 UI follow-on (NGF-079): nav/wiki shell persistence, create-activity stay-in-context, semantic toasts, wiki tree toast feedback |
+| [0.3.0](docs/releases/0.3.0.md) | NGF-079 MCP activity operations foundation (NG-722): safe activity create/update/move/transition/comment/link/archive/restore, workspace context, and idempotent external metadata |
 | [0.2.2](docs/releases/0.2.2.md) | NGF-026/067 MCP wiki attachment images (NG-721-P11): upload/list/replace/delete + figure markup sync |
 | [0.2.1](docs/releases/0.2.1.md) | NGF-067 wiki layout polish (NG-721-P9): 320px tree, 240px nav, collapsible tree, Escape dismiss, tree menu z-index |
 | [0.2.0](docs/releases/0.2.0.md) | NGF-067 Wiki navigation & collaboration (NG-721 P1–P8): sidebar, macros, Change Parent, DnD, MCP reparent |
