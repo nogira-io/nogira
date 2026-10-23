@@ -6,6 +6,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.5.1](docs/releases/0.5.1.md) | NGB-061 Standard screen save keeps a custom field such as Company, and includes Parent with the locked system fields. No screenshot. |
 | [0.5.0](docs/releases/0.5.0.md) | NGF-083 Enabling Forms (NG-727 P1–P11) and instance application name (NG-728). Sprint mail is delivered, and an unknown notification event no longer blocks the queue. |
 | [0.4.0](docs/releases/0.4.0.md) | NGF-080 MOBA Core first slice (NG-724), paused 2026-10-18. No installer image and no screenshot. |
 | [0.3.9](docs/releases/0.3.9.md) | NG-726-P12–P14 mobile challenge integration, activity feed fixes, and replaceable step images (NGF-082) |
