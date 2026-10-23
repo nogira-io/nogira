@@ -6,6 +6,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.5.0](docs/releases/0.5.0.md) | NGF-083 Enabling Forms (NG-727 P1–P11) and instance application name (NG-728). Sprint mail is delivered, and an unknown notification event no longer blocks the queue. |
+| [0.4.0](docs/releases/0.4.0.md) | NGF-080 MOBA Core first slice (NG-724), paused 2026-10-18. No installer image and no screenshot. |
 | [0.3.9](docs/releases/0.3.9.md) | NG-726-P12–P14 mobile challenge integration, activity feed fixes, and replaceable step images (NGF-082) |
 | [0.3.8](docs/releases/0.3.8.md) | NG-726 mobile web shell for activities, wiki, and whiteboards (NGF-082) |
 | [0.2.2](docs/releases/0.2.2.md) | NGF-026/067 MCP wiki attachment images (NG-721-P11): upload/list/replace/delete + figure markup sync |
