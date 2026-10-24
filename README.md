@@ -168,6 +168,16 @@ Publish a direct link, `/form/:code`, that creates a real Activity. The same pag
 
 ---
 
+## Application version
+
+The expanded menu, the public form, and the sign-in pages show **Powered by NoGira** plus the running version.
+
+![Application version — menu, public form, and sign-in](docs/assets/nogira-version.gif)
+
+*Add `docs/assets/nogira-version.gif` before publishing 0.6.0. Show the expanded left menu, the public form powered-by line, and a sign-in page.*
+
+---
+
 ## Architecture Philosophy
 
 NoGira is a **distributed platform**, not a single monolithic service. Runtime roles split across bounded containers: API server (workflows and domain logic), web UI, and a background notification worker. Additional workers and app marketplace nodes are on the roadmap. All share a workspace-centric data model for activities, workflows, boards, and wiki. Community images ship as versioned containers on [Docker Hub](https://hub.docker.com/u/nogira); this installer pins one version across API, UI, and notification worker.

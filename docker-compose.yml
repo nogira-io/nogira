@@ -26,6 +26,7 @@ services:
       NODE_ENV: production
       PORT: 4000
       DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
+      APP_VERSION: 'latest'
       JWT_SECRET: ${JWT_SECRET}
       NOGIRA_STORAGE_ROOT: /data
       CORS_ORIGIN: http://localhost:3000
@@ -46,6 +47,7 @@ services:
     environment:
       NODE_ENV: production
       DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
+      APP_VERSION: 'latest'
       JWT_SECRET: ${JWT_SECRET}
       NOGIRA_STORAGE_ROOT: /data
       NOTIFICATION_WORKER_SKIP_SMTP_VERIFY: '1'
