@@ -19,3 +19,4 @@
 | `nogira-mcp.gif` | README — MCP |
 | `nogira-challenge.gif` | README — Challenge game |
 | `nogira-forms.gif` | README + `docs/releases/0.5.0.md` — Enabling Forms. Add the file before publishing **0.5.0**. Show the Forms lists, the five-step wizard, the public page, and the submitted screen. |
+| `nogira-version.gif` | README + `docs/releases/0.6.0.md` — Application version. Add the file before publishing **0.6.0**. Show the expanded menu, the public form, and a sign-in page. |

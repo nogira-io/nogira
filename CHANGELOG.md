@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.6.0](docs/releases/0.6.0.md) | NGF-084 Application version on the expanded menu, public form, sign-in pages, email footer, and `/api/health` (NG-730). |
 | [0.5.2](docs/releases/0.5.2.md) | NGB-062 Notification jobs page 50 rows, checkbox delete, clear sent and failed, and clear unsent pending events (NG-729). No screenshot. |
 | [0.5.1](docs/releases/0.5.1.md) | NGB-061 Standard screen save keeps a custom field such as Company, and includes Parent with the locked system fields. No screenshot. |
 | [0.5.0](docs/releases/0.5.0.md) | NGF-083 Enabling Forms (NG-727 P1–P11) and instance application name (NG-728). Sprint mail is delivered, and an unknown notification event no longer blocks the queue. |
