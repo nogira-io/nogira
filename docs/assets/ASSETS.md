@@ -18,3 +18,4 @@
 | `nogira-plan-dependency-editing.gif` | `docs/releases/0.3.0.md` (series index) + `docs/releases/0.3.3.md` — Plan Board dependency editing |
 | `nogira-mcp.gif` | README — MCP |
 | `nogira-challenge.gif` | README — Challenge game |
+| `nogira-forms.gif` | README + `docs/releases/0.5.0.md` — Enabling Forms. Add the file before publishing **0.5.0**. Show the Forms lists, the five-step wizard, the public page, and the submitted screen. |

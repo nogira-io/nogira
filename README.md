@@ -158,6 +158,16 @@ See **[docs/event-challenges.md](docs/event-challenges.md)** for a step-by-step 
 
 ---
 
+## Enabling Forms
+
+Publish a direct link, `/form/:code`, that creates a real Activity. The same page works for a signed-in visitor and, when the form is Public, for someone who is not signed in. Opening the link does not add them to the workspace.
+
+![Enabling Forms — list, wizard, public page, and submitted request](docs/assets/nogira-forms.gif)
+
+*Add `docs/assets/nogira-forms.gif` before publishing 0.5.0. Show the Forms lists, the five-step wizard, the public page with privacy acceptance, and the submitted screen.*
+
+---
+
 ## Architecture Philosophy
 
 NoGira is a **distributed platform**, not a single monolithic service. Runtime roles split across bounded containers: API server (workflows and domain logic), web UI, and a background notification worker. Additional workers and app marketplace nodes are on the roadmap. All share a workspace-centric data model for activities, workflows, boards, and wiki. Community images ship as versioned containers on [Docker Hub](https://hub.docker.com/u/nogira); this installer pins one version across API, UI, and notification worker.
