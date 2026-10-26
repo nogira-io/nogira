@@ -192,7 +192,7 @@ Install the **free Community Edition** with Docker Compose.
 
 **Prerequisites:** [Docker](https://docs.docker.com/get-docker/) and Docker Compose v2.
 
-**Community Edition images** are published on [Docker Hub, nogira](https://hub.docker.com/u/nogira) (`nogira/nogira-core`, `nogira/nogira-ui`, `nogira/nogira-notification-worker`). This installer pins a single version on all three (see `docker-compose.yml`).
+**Community Edition images** are published on [Docker Hub, nogira](https://hub.docker.com/u/nogira) (`nogira/nogira-core`, `nogira/nogira-ui`, `nogira/nogira-worker`, `nogira/nogira-mcp`). This installer pins a single version on those images (see `docker-compose.yml`).
 
 ```bash
 git clone https://github.com/nogira-io/nogira.git
@@ -204,6 +204,7 @@ Edit `.env` and set:
 
 - `POSTGRES_PASSWORD`, database password (choose a strong value)
 - `JWT_SECRET`, long random string (session signing)
+- `NOGIRA_WORKER_DB_PASSWORD`, alphanumeric password for the worker database login
 
 Then start NoGira:
 

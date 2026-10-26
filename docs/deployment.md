@@ -35,7 +35,7 @@ Published images: [hub.docker.com/u/nogira](https://hub.docker.com/u/nogira)
 |------------|----------------------------|
 | `nogira/nogira-core` | API + migrations on startup |
 | `nogira/nogira-ui` | Web UI |
-| `nogira/nogira-notification-worker` | Background notifications |
+| `nogira/nogira-worker` | Email delivery and notification jobs |
 | `nogira/nogira-mcp` | MCP server for AI clients (port **3100**) |
 | `nogira/nogira-apps` | Not used by this installer |
 
@@ -45,7 +45,7 @@ All `nogira/*` images in `docker-compose.yml` must use the **same version tag** 
 
 Read [CHANGELOG.md](../CHANGELOG.md) and the matching file under [docs/releases/](releases/) for what changed in each version.
 
-1. Edit all runtime image tags in `docker-compose.yml` (`nogira-core`, `nogira-ui`, `nogira-notification-worker`, `nogira-mcp`) and `REACT_APP_VERSION` on the UI service to the target release.
+1. Edit all runtime image tags in `docker-compose.yml` (`nogira-core`, `nogira-ui`, `nogira-worker`, `nogira-mcp`) and `REACT_APP_VERSION` on the UI service to the target release.
 2. Pull and restart:
 
    ```bash
@@ -87,12 +87,13 @@ Minor updates within PostgreSQL 14 are generally safer; still back up first.
 
 ## Environment variables
 
-Only two values are required in `.env`:
+Three values are required in `.env`:
 
 | Variable | Purpose |
 |----------|---------|
 | `POSTGRES_PASSWORD` | PostgreSQL password |
 | `JWT_SECRET` | Signing secret for sessions |
+| `NOGIRA_WORKER_DB_PASSWORD` | Alphanumeric password for the `nogira_worker` login. Core sets it on startup. |
 
 Do not commit `.env` to version control.
 
