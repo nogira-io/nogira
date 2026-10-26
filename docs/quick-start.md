@@ -9,7 +9,7 @@ A **single-node evaluation** stack:
 - PostgreSQL 14 (bundled, internal network only)
 - NoGira Core (API, port **4000**)
 - NoGira UI (port **3000**)
-- Notification worker (background jobs; same data volume as core)
+- Worker (email delivery and notification jobs; container `ng-worker`)
 - NoGira MCP (AI clients, port **3100**)
 
 ## Docker images
@@ -20,7 +20,7 @@ NoGira runtime images are on [Docker Hub — nogira](https://hub.docker.com/u/no
 |-------|-------------------------|
 | [nogira/nogira-core](https://hub.docker.com/r/nogira/nogira-core) | Yes |
 | [nogira/nogira-ui](https://hub.docker.com/r/nogira/nogira-ui) | Yes |
-| [nogira/nogira-notification-worker](https://hub.docker.com/r/nogira/nogira-notification-worker) | Yes |
+| [nogira/nogira-worker](https://hub.docker.com/r/nogira/nogira-worker) | Yes |
 | [nogira/nogira-mcp](https://hub.docker.com/r/nogira/nogira-mcp) | Yes |
 | [nogira/nogira-apps](https://hub.docker.com/r/nogira/nogira-apps) | No (other topologies) |
 
@@ -31,7 +31,7 @@ NoGira runtime images are on [Docker Hub — nogira](https://hub.docker.com/u/no
 1. Install Docker and Docker Compose v2.
 2. Clone this repository and enter the directory.
 3. Copy `.env.example` to `.env`.
-4. Set `POSTGRES_PASSWORD` and `JWT_SECRET` in `.env`.
+4. Set `POSTGRES_PASSWORD`, `JWT_SECRET`, and alphanumeric `NOGIRA_WORKER_DB_PASSWORD` in `.env`.
 5. Run:
 
    ```bash

@@ -1,5 +1,5 @@
 # NoGira single-node evaluation stack (NG-600)
-# Images: https://hub.docker.com/u/nogira — edit all four nogira/* runtime tags together on upgrade.
+# Images: https://hub.docker.com/u/nogira — edit all nogira/* runtime tags together on upgrade.
 # On cicd-release.sh --version X.Y.Z: also update CHANGELOG.md + docs/releases/X.Y.Z.md (see .cursor/rules/devops/nogira-public-installer-release.mdc).
 
 services:
@@ -34,27 +34,29 @@ services:
       MCP_CORE_ROUTES_ENABLED: 'true'
       NOGIRA_MCP_WRITE_ENABLED: 'true'
       NOGIRA_MCP_ACTIVITY_WRITE_ENABLED: 'true'
+      NOGIRA_WORKER_DB_PASSWORD: ${NOGIRA_WORKER_DB_PASSWORD}
+      WORKER_REQUIRED_MODES: email,notification
+      WORKER_STALE_MS: '45000'
     volumes:
       - nogira-core-data:/data
 
-  nogira-notification-worker:
-    image: nogira/nogira-notification-worker:latest
-    container_name: ng-notification-worker
+  nogira-worker:
+    image: nogira/nogira-worker:latest
+    container_name: ng-worker
     restart: unless-stopped
     depends_on:
       - nogira-postgres
       - nogira-core
     environment:
       NODE_ENV: production
-      DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
+      WORKER_MODE: all
+      DATABASE_URL: postgresql://nogira_worker:${NOGIRA_WORKER_DB_PASSWORD}@nogira-postgres:5432/nogira
       APP_VERSION: 'latest'
-      JWT_SECRET: ${JWT_SECRET}
-      NOGIRA_STORAGE_ROOT: /data
-      NOTIFICATION_WORKER_SKIP_SMTP_VERIFY: '1'
-      NOGIRA_SMTP_ENABLED: 'false'
       FRONTEND_URL: http://localhost:3000
-    volumes:
-      - nogira-core-data:/data
+      WORKER_POLL_MS: '60000'
+      HEARTBEAT_INTERVAL_MS: '15000'
+      EMAIL_CONCURRENCY: '2'
+      NOTIFICATION_CONCURRENCY: '2'
 
   nogira-ui:
     image: nogira/nogira-ui:latest

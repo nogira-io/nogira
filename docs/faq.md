@@ -10,11 +10,11 @@ Early adopters need a **simple, reproducible** way to self-host while the platfo
 
 ## Where are the Docker images?
 
-On [Docker Hub under the `nogira` organization](https://hub.docker.com/u/nogira). The evaluation installer pulls `nogira-core`, `nogira-ui`, and `nogira-notification-worker` at the same semver tag. `nogira-apps` is published for other deployment layouts but is not part of the default compose file.
+On [Docker Hub under the `nogira` organization](https://hub.docker.com/u/nogira). The evaluation installer pulls `nogira-core`, `nogira-ui`, `nogira-worker`, and `nogira-mcp` at the same semver tag. `nogira-apps` is published for other deployment layouts but is not part of the default compose file.
 
 ## Are all NoGira images the same version?
 
-Yes. For each install, `nogira-core`, `nogira-ui`, and `nogira-notification-worker` must use the **identical** semver tag (for example `0.1.5`). Do not mix versions.
+Yes. For each install, `nogira-core`, `nogira-ui`, `nogira-worker`, and `nogira-mcp` must use the **identical** semver tag (for example `0.7.0`). Do not mix versions.
 
 ## Do I need to run database migrations manually?
 
