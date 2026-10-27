@@ -8,6 +8,8 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.7.2](docs/releases/0.7.2.md) | NGB-065 Configure Columns shows the stored field value on home search and workspace Activities. No screenshot. |
+| [0.7.1](docs/releases/0.7.1.md) | NGB-065 single-select values on the ticket, field-scheme save keeps missing system fields, and Configure Columns lists every field on home search and the workspace field scheme on Activities. No screenshot. |
 | [0.7.0](docs/releases/0.7.0.md) | `nogira-worker` replaces the notification worker. Email and notification modes, worker health, and QA password fix (NGF-086, NG-733 P1–P8, NGB-064). GIF reserved. |
 | [0.6.1](docs/releases/0.6.1.md) | Activity create checks the workspace permission matrix. A Guest and a non-member receive 403 (NGB-061, NG-730, NGF-027). No screenshot. |
 | [0.6.0](docs/releases/0.6.0.md) | NGF-084 Application version on the expanded menu, public form, sign-in pages, email footer, and `/api/health` (NG-730). |
