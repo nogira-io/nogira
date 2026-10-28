@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.8.0](docs/releases/0.8.0.md) | First-install token + resumable wizard, Core/DB Error 503 states, atomic activity keys, shared authentication UI, and three release GIFs (NGF-011/012/084, NG-734, NGB-066–070). |
 | [0.7.2](docs/releases/0.7.2.md) | NGB-065 Configure Columns shows the stored field value on home search and workspace Activities. No screenshot. |
 | [0.7.1](docs/releases/0.7.1.md) | NGB-065 single-select values on the ticket, field-scheme save keeps missing system fields, and Configure Columns lists every field on home search and the workspace field scheme on Activities. No screenshot. |
 | [0.7.0](docs/releases/0.7.0.md) | `nogira-worker` replaces the notification worker. Email and notification modes, worker health, and QA password fix (NGF-086, NG-733 P1–P8, NGB-064). GIF reserved. |
