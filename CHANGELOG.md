@@ -12,6 +12,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 | [0.8.2](docs/releases/0.8.2.md) | Settings list chrome + SegmentedTabs, wiki lazy nav/DnD, purge wiki/whiteboard, home counters, CLC load scripts (NGB-072–087; NG-735–738, NG-734-P15/P17). No GIF. |
 | [0.8.1](docs/releases/0.8.1.md) | Login right-panel colors aligned with the NoGira onboarding black, white, and green theme. No GIF required. |
 | [0.8.0](docs/releases/0.8.0.md) | First-install token + resumable wizard, Core/DB Error 503 states, atomic activity keys, shared authentication UI, and three release GIFs (NGF-011/012/084, NG-734, NGB-066–070). |
+| [0.7.3](docs/releases/0.7.3.md) | NGB-065 Move activity to another workspace (mobile + desktop), mobile list total and workspace filter navigate. No screenshot. |
 | [0.7.2](docs/releases/0.7.2.md) | NGB-065 Configure Columns shows the stored field value on home search and workspace Activities. No screenshot. |
 | [0.7.1](docs/releases/0.7.1.md) | NGB-065 single-select values on the ticket, field-scheme save keeps missing system fields, and Configure Columns lists every field on home search and the workspace field scheme on Activities. No screenshot. |
 | [0.7.0](docs/releases/0.7.0.md) | `nogira-worker` replaces the notification worker. Email and notification modes, worker health, and QA password fix (NGF-086, NG-733 P1–P8, NGB-064). GIF reserved. |
