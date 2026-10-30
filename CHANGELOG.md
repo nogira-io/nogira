@@ -8,7 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
-| [0.8.3](docs/releases/0.8.3.md) | Mobile own-work assignee pin (NGB-088–090; NG-734-P22–P24), outbound jobs SegmentedTabs (NG-734-P19), hosted cleanup + CLC enrollment tooling (P21 / P18–P20 enroll). No GIF. |
+| [0.8.3](docs/releases/0.8.3.md) | Mobile own-work pin + wizard-off first-login Search (NGB-088–091; NG-734-P22–P25), outbound jobs SegmentedTabs (NG-734-P19), hosted cleanup + CLC enrollment tooling (P21 / P18–P20 enroll). No GIF. |
 | [0.8.2](docs/releases/0.8.2.md) | Settings list chrome + SegmentedTabs, wiki lazy nav/DnD, purge wiki/whiteboard, home counters, CLC load scripts (NGB-072–087; NG-735–738, NG-734-P15/P17). No GIF. |
 | [0.8.1](docs/releases/0.8.1.md) | Login right-panel colors aligned with the NoGira onboarding black, white, and green theme. No GIF required. |
 | [0.8.0](docs/releases/0.8.0.md) | First-install token + resumable wizard, Core/DB Error 503 states, atomic activity keys, shared authentication UI, and three release GIFs (NGF-011/012/084, NG-734, NGB-066–070). |
