@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.8.5](docs/releases/0.8.5.md) | Board data source All/Types/Filter (NGF-087 / NG-739); Search More fields (NG-740); saved-view canonicalUrl for labels/moreFields (NG-741). Sample compose stays on latest. No GIF. |
 | [0.8.4](docs/releases/0.8.4.md) | Mobile own-work pin is default-on-entry only; Apply filters preserved on Search/Activities (NGB-092; NG-734-P26). No GIF. Installer compose not bumped this slice. |
 | [0.8.3](docs/releases/0.8.3.md) | Mobile own-work pin + wizard-off first-login Search (NGB-088–091; NG-734-P22–P25), outbound jobs SegmentedTabs (NG-734-P19), hosted cleanup + CLC enrollment tooling (P21 / P18–P20 enroll). No GIF. |
 | [0.8.2](docs/releases/0.8.2.md) | Settings list chrome + SegmentedTabs, wiki lazy nav/DnD, purge wiki/whiteboard, home counters, CLC load scripts (NGB-072–087; NG-735–738, NG-734-P15/P17). No GIF. |
