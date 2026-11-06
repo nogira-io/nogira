@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.8.7](docs/releases/0.8.7.md) | Board card extra fields ≤3 (NGF-088 / NG-743); Priority sort high→low on boards + searchable Priority column on Search (NG-744 / NGB-094). Sample compose stays on latest. No GIF. |
 | [0.8.6](docs/releases/0.8.6.md) | Board cards: compact status + priority name→swatch; list APIs include priorityOption (NG-742 / NGB-093). Sample compose stays on latest. No GIF. |
 | [0.8.5](docs/releases/0.8.5.md) | Board data source All/Types/Filter (NGF-087 / NG-739); Search More fields (NG-740); saved-view canonicalUrl for labels/moreFields (NG-741). Sample compose stays on latest. No GIF. |
 | [0.8.4](docs/releases/0.8.4.md) | Mobile own-work pin is default-on-entry only; Apply filters preserved on Search/Activities (NGB-092; NG-734-P26). No GIF. Installer compose not bumped this slice. |
