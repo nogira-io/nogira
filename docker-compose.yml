@@ -1,6 +1,7 @@
-# NoGira single-node evaluation stack (NG-600)
-# Images: https://hub.docker.com/u/nogira — edit all nogira/* runtime tags together on upgrade.
-# On cicd-release.sh --version X.Y.Z: also update CHANGELOG.md + docs/releases/X.Y.Z.md (see .cursor/rules/devops/nogira-public-installer-release.mdc).
+# NoGira single-node evaluation stack (NG-600) — sample compose; keep nogira/* tags on :latest.
+# Images: https://hub.docker.com/u/nogira
+# On cicd-release.sh --version X.Y.Z: update CHANGELOG.md + docs/releases/X.Y.Z.md only (do not pin this file).
+# See .cursor/rules/devops/nogira-public-installer-release.mdc.
 
 services:
   nogira-postgres:
