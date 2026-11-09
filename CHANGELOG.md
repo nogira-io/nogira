@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.8.11](docs/releases/0.8.11.md) | Forms Disabled tab re-enable via green/gray toggle; Enable reuses publish API (NG-753 / NGB-100 / NGF-083). Sample compose stays on latest. No GIF. |
 | [0.8.10](docs/releases/0.8.10.md) | Wiki open code-split + deep-link fix + shared loading skeletons; Insights/flows/WorkflowModal leave main chunk (NG-748/749/751/752; NGB-097/099). Sample compose stays on latest. No GIF. |
 | [0.8.9](docs/releases/0.8.9.md) | Unified Activity FTS + prefix matching (NG-746 / NGB-096); QA-only shared cgroup budget (NG-747). Sample compose stays on latest. No GIF. |
 | [0.8.8](docs/releases/0.8.8.md) | Mobile wiki Export to PDF (NG-745); Prisma core pool 15 / timeout 10 (NGB-095 follow-up). Sample compose stays on latest. No GIF. |
