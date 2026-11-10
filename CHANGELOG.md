@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.9.0](docs/releases/0.9.0.md) | System appearance ModeCards + Custom primary, contrast-safe titles, Configure layout, notice modals (no browser alert), theme-aware brand logos, email CID branding; QA look-and-feel e2e (NG-756 P0–P4 + PX–PX10 / NGF-093/094). Desktop Light↔Standard GIF. Sample compose stays on latest. |
 | [0.8.12](docs/releases/0.8.12.md) | Home Search: saved-filter columns restore; export uses displayed columns; Created/Resolved; drop Last activity (NG-755 / NGB-101 / NGF-008 / NGF-013). Sample compose stays on latest. No GIF. |
 | [0.8.11](docs/releases/0.8.11.md) | Forms Disabled tab re-enable via green/gray toggle; Enable reuses publish API (NG-753 / NGB-100 / NGF-083). Sample compose stays on latest. No GIF. |
 | [0.8.10](docs/releases/0.8.10.md) | Wiki open code-split + deep-link fix + shared loading skeletons; Insights/flows/WorkflowModal leave main chunk (NG-748/749/751/752; NGB-097/099). Sample compose stays on latest. No GIF. |
