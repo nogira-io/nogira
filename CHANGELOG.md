@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.10.1](docs/releases/0.10.1.md) | My Work Kanban card width parity with board Kanban (fixed 280px columns + gap 16) (NG-757-P12 / NGF-098). No GIF. Sample compose stays on latest. |
 | [0.10.0](docs/releases/0.10.0.md) | My Work Universal Kanban (NGF-098 / NG-757 P0–P9): five-column desktop Kanban, Customize, Jira-like drag chrome, Scrum SegmentedTabs + Complete Sprint, Metrics unit tabs, saturated board accents, Activities Review activity key. GIF placeholder `nogira-my-work-universal-kanban.gif`. Sample compose stays on latest. |
 | [0.9.0](docs/releases/0.9.0.md) | System appearance ModeCards + Custom primary, contrast-safe titles, Account configure-layout (Follow enterprise/Custom), notice modals, theme-aware brand logos, email CID branding; QA look-and-feel e2e (NG-756 P0–P4 + PX–PX11 / NGF-093/094). Desktop Light↔Standard GIF. Sample compose stays on latest. |
 | [0.8.12](docs/releases/0.8.12.md) | Home Search: saved-filter columns restore; export uses displayed columns; Created/Resolved; drop Last activity (NG-755 / NGB-101 / NGF-008 / NGF-013). Sample compose stays on latest. No GIF. |
