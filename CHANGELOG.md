@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.10.3](docs/releases/0.10.3.md) | Shared catalogue (NGF-045 / NG-759), Create sprint selector + backlog Remove/Start (NG-760), mobile ActionButton/Move/Filter/drawer/FAB/refresh (NG-726-P15–P17). GIF placeholder. Sample compose stays on latest. |
 | [0.10.2](docs/releases/0.10.2.md) | Wiki Export PDF progress modal (spinner → Download) on desktop + mobile (NG-758 / NGF-079 / NGF-082). No GIF. Sample compose stays on latest. |
 | [0.10.1](docs/releases/0.10.1.md) | My Work Kanban card width parity with board Kanban (fixed 280px columns + gap 16) (NG-757-P12 / NGF-098). No GIF. Sample compose stays on latest. |
 | [0.10.0](docs/releases/0.10.0.md) | My Work Universal Kanban (NGF-098 / NG-757 P0–P9): five-column desktop Kanban, Customize, Jira-like drag chrome, Scrum SegmentedTabs + Complete Sprint, Metrics unit tabs, saturated board accents, Activities Review activity key. GIF placeholder `nogira-my-work-universal-kanban.gif`. Sample compose stays on latest. |
