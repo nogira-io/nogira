@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.10.4](docs/releases/0.10.4.md) | Mobile wiki feed SegmentedTabs + RefreshCw/pull-to-refresh + swipe Edit/Comment/Move/Clone/Archive; Move/Comment ActionButton chrome; workspace key rewrite + CUSTOM parent attach (NG-726-P18–P19 / NG-761 / NGF-082 / NGF-063). No GIF. Sample compose stays on latest. |
 | [0.10.3](docs/releases/0.10.3.md) | Shared catalogue (NGF-045 / NG-759), Create sprint selector + backlog Remove/Start (NG-760), mobile ActionButton/Move/Filter/drawer/FAB/refresh (NG-726-P15–P17). GIF placeholder. Sample compose stays on latest. |
 | [0.10.2](docs/releases/0.10.2.md) | Wiki Export PDF progress modal (spinner → Download) on desktop + mobile (NG-758 / NGF-079 / NGF-082). No GIF. Sample compose stays on latest. |
 | [0.10.1](docs/releases/0.10.1.md) | My Work Kanban card width parity with board Kanban (fixed 280px columns + gap 16) (NG-757-P12 / NGF-098). No GIF. Sample compose stays on latest. |
