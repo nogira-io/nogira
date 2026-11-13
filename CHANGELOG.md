@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.11.3](docs/releases/0.11.3.md) | Access same-role membership fan-out (NG-763); catalogue QA auth harden (NG-766-P1); edit e2e deferred; `cicd-release --non-interactive`. No GIF. Sample compose stays on latest. |
 | [0.11.2](docs/releases/0.11.2.md) | Portfolio CUSTOM rollup (NG-762); CUSTOM→Portfolio parent bridge (NG-764 / NGB-102); Activities rollup refresh after parent save (NG-765 / NGB-103); mobile Comment FAB + board RefreshCw + All spaces (NG-726-P20). No GIF. Sample compose stays on latest. |
 | [0.11.1](docs/releases/0.11.1.md) | Mobile wiki feed SegmentedTabs + RefreshCw/pull-to-refresh + swipe Edit/Comment/Move/Clone/Archive; Move/Comment ActionButton chrome; workspace key rewrite + CUSTOM parent attach (NG-726-P18–P19 / NG-761 / NGF-082 / NGF-063). No GIF. Sample compose stays on latest. |
 | [0.11.0](docs/releases/0.11.0.md) | Products, Services, Components & Versions (NGF-045 / NG-759) plus Create sprint selector (NG-760) and mobile create/move/filter extras (NG-726-P15–P17). GIF placeholder. Sample compose stays on latest. |

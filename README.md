@@ -168,6 +168,22 @@ Publish a direct link, `/form/:code`, that creates a real Activity. The same pag
 
 ---
 
+## Products, Services & Catalogue
+
+Organisation-shared **Products**, **Services**, **Components**, and product **Versions** live in one catalogue (`/home/products-services`). Browse list or relationship graph, attach entities to workspaces, manage editors and kind grants, seed a starter sample, and pick catalogue fields when creating activities — so delivery work stays tied to what you ship.
+
+![Products, Services, Components catalogue](docs/assets/nogira-catalogue.gif)
+
+---
+
+## My Work
+
+Desktop **My Work** is a personal five-column Kanban across your discoverable workspaces — Needs Attention, Ready to Start, Active Work, Waiting, and Recently Completed — with Customize, workflow-valid drag-and-drop, and the same board chrome as workspace Kanban and Active Scrum.
+
+![My Work Universal Kanban](docs/assets/nogira-catalogue.gif)
+
+---
+
 ## Application version
 
 The expanded menu, the public form, and the sign-in pages show **Powered by NoGira** plus the running version.
