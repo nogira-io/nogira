@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.12.5](docs/releases/0.12.5.md) | MCP move workspace/type tools + catalog (NGDEV-373); Change Status modal grows for status options (NGDEV-372-P7 / NGF-079). No GIF. Sample compose stays on latest. |
 | [0.12.4](docs/releases/0.12.4.md) | Board column select-all; Actions Move + Change Status (typed groups); same-workspace type/status remap keeps key; detail ⋯ menu (NGDEV-372 / NGF-079). No GIF. Sample compose stays on latest. |
 | [0.12.3](docs/releases/0.12.3.md) | MCP search via UI engine + fields projection; `renameWikiPage`; public `/mcp.json` + `/tools.json` catalog (NGDEV-362 / NGF-079). No GIF. Sample compose stays on latest. |
 | [0.12.2](docs/releases/0.12.2.md) | Wiki shared draft/Publish + exclusive edit lease/handoff (NG-774 P0–P3/P5/P6A); block chrome actions rail (NG-772-P11). Prisma draft/lease migration. No GIF. Sample compose stays on latest. |
