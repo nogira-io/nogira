@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.12.2](docs/releases/0.12.2.md) | Wiki shared draft/Publish + exclusive edit lease/handoff (NG-774 P0–P3/P5/P6A); block chrome actions rail (NG-772-P11). Prisma draft/lease migration. No GIF. Sample compose stays on latest. |
 | [0.12.1](docs/releases/0.12.1.md) | Wiki external + internal clipboard (NG-772-P8A/P8B), code-block polish (NG-772-P10), floating Copy on blocks. No GIF. Sample compose stays on latest. |
 | [0.12.0](docs/releases/0.12.0.md) | Enterprise Wiki modular UI (NGF-100 / NG-772 P0–P5 + P7–P9): Standard/Wide, layout columns, block reorder, modern tables, GIF animation, child-pages depth, caret-only text blocks. GIF placeholder. Sample compose stays on latest. |
 | [0.11.4](docs/releases/0.11.4.md) | Activity/wiki rich editors + table insert `columnCount`; Wiki caret/tree expansion/context counts (NG-768/769/770 / NGB-104). No GIF. Sample compose stays on latest. |
