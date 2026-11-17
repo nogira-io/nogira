@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.12.7](docs/releases/0.12.7.md) | Org appearance on login/register/onboarding via `/appearance/public` + primary tokens; auth aside accents (NGDEV-369 / NGF-093). No GIF. Sample compose stays on latest. |
 | [0.12.6](docs/releases/0.12.6.md) | Board Actions Move for N≥1 selected; shared destination workspace/type/status (NGDEV-372-P8 / NGF-079). No GIF. Sample compose stays on latest. |
 | [0.12.5](docs/releases/0.12.5.md) | MCP move workspace/type tools + catalog (NGDEV-373); Change Status modal grows for status options (NGDEV-372-P7 / NGF-079). No GIF. Sample compose stays on latest. |
 | [0.12.4](docs/releases/0.12.4.md) | Board column select-all; Actions Move + Change Status (typed groups); same-workspace type/status remap keeps key; detail ⋯ menu (NGDEV-372 / NGF-079). No GIF. Sample compose stays on latest. |
