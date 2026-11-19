@@ -20,8 +20,9 @@
 | `nogira-challenge.gif` | README — Challenge game |
 | `nogira-catalogue.gif` | README — Products, Services & Catalogue; My Work (shared GIF per operator); `docs/releases/0.11.0.md` |
 | `nogira-my-work-universal-kanban.gif.gif` | `docs/releases/0.10.0.md` — My Work Universal Kanban (filename as stored) |
-| `nogira-forms.gif` | README + `docs/releases/0.5.0.md` — Enabling Forms. Add the file before publishing **0.5.0**. Show the Forms lists, the five-step wizard, the public page, and the submitted screen. |
-| `nogira-version.gif` | README + `docs/releases/0.6.0.md` — Application version. Add the file before publishing **0.6.0**. Show the expanded menu, the public form, and a sign-in page. |
+| `nogira-forms.gif` | README + `docs/releases/0.5.0.md` — Enabling Forms |
+| `nogira-version.gif` | `docs/releases/0.6.0.md` — Application version |
+| `nogira-time-tracking.gif` | README + `docs/time-tracking.md` + `docs/releases/0.13.0.md` — Time tracking & My Time |
 | `nogira-install-wizard.gif` | `docs/releases/0.8.0.md` — First installation wizard (NG-734): token, administrator, progress, ready. |
 | `nogira-service-unavailable.gif` | `docs/releases/0.8.0.md` — Core unavailable and initialized-database unavailable Error 503 states. |
 | `nogira-authentication.gif` | `docs/releases/0.8.0.md` — Shared branded login, access request, and password recovery shell (NG-734-P14). |
