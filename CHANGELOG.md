@@ -8,6 +8,15 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.12.8](docs/releases/0.12.8.md) | Email CTA/header org appearance (NGDEV-369-P6); deleted-user **D** avatar + `Deleted u-XXXXXX` (NGDEV-369-P7 / NGF-051). No GIF. Sample compose stays on latest. |
+| [0.12.7](docs/releases/0.12.7.md) | Org appearance on login/register/onboarding via `/appearance/public` + primary tokens; auth aside accents (NGDEV-369 / NGF-093). No GIF. Sample compose stays on latest. |
+| [0.12.6](docs/releases/0.12.6.md) | Board Actions Move for N≥1 selected; shared destination workspace/type/status (NGDEV-372-P8 / NGF-079). No GIF. Sample compose stays on latest. |
+| [0.12.5](docs/releases/0.12.5.md) | MCP move workspace/type tools + catalog (NGDEV-373); Change Status modal grows for status options (NGDEV-372-P7 / NGF-079). No GIF. Sample compose stays on latest. |
+| [0.12.4](docs/releases/0.12.4.md) | Board column select-all; Actions Move + Change Status (typed groups); same-workspace type/status remap keeps key; detail ⋯ menu (NGDEV-372 / NGF-079). No GIF. Sample compose stays on latest. |
+| [0.12.3](docs/releases/0.12.3.md) | MCP search via UI engine + fields projection; `renameWikiPage`; public `/mcp.json` + `/tools.json` catalog (NGDEV-362 / NGF-079). No GIF. Sample compose stays on latest. |
+| [0.12.2](docs/releases/0.12.2.md) | Wiki shared draft/Publish + exclusive edit lease/handoff (NG-774 P0–P3/P5/P6A); block chrome actions rail (NG-772-P11). Prisma draft/lease migration. No GIF. Sample compose stays on latest. |
+| [0.12.1](docs/releases/0.12.1.md) | Wiki external + internal clipboard (NG-772-P8A/P8B), code-block polish (NG-772-P10), floating Copy on blocks. No GIF. Sample compose stays on latest. |
+| [0.12.0](docs/releases/0.12.0.md) | Enterprise Wiki modular UI (NGF-100 / NG-772 P0–P5 + P7–P9): Standard/Wide, layout columns, block reorder, modern tables, GIF animation, child-pages depth, caret-only text blocks. GIF placeholder. Sample compose stays on latest. |
 | [0.11.4](docs/releases/0.11.4.md) | Activity/wiki rich editors + table insert `columnCount`; Wiki caret/tree expansion/context counts (NG-768/769/770 / NGB-104). No GIF. Sample compose stays on latest. |
 | [0.11.3](docs/releases/0.11.3.md) | Access same-role membership fan-out (NG-763); catalogue QA auth harden (NG-766-P1); edit e2e deferred; `cicd-release --non-interactive`. No GIF. Sample compose stays on latest. |
 | [0.11.2](docs/releases/0.11.2.md) | Portfolio CUSTOM rollup (NG-762); CUSTOM→Portfolio parent bridge (NG-764 / NGB-102); Activities rollup refresh after parent save (NG-765 / NGB-103); mobile Comment FAB + board RefreshCw + All spaces (NG-726-P20). No GIF. Sample compose stays on latest. |
