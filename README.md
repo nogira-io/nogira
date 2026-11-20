@@ -20,6 +20,7 @@ Built from more than 12 years of enterprise delivery experience across multiple 
 | [Deployment Guide](docs/deployment.md) | Upgrades, volumes, platform support |
 | [Wiki guide](docs/wiki.md) | Pages, block editor, slash commands, sidebar |
 | [Wiki macros](docs/wiki-macros.md) | toc, child pages, callouts, activity list |
+| [Time Tracking](docs/time-tracking.md) | Estimates, Log Time, Worklogs, My Time, Working Calendar |
 | [MCP Server](docs/mcp.md) | Connect Cursor, Claude Desktop and AI clients |
 | [Challenge Game](docs/event-challenges.md) | Interactive onboarding and training |
 | [Roadmap](docs/roadmap.md) | Product direction and upcoming capabilities |
@@ -114,6 +115,14 @@ Build hierarchical wiki pages with a **block editor**, **macros** (toc, child-pa
 
 ---
 
+## Time Tracking & Effort Estimation
+
+Estimate expected effort, log work manually or from automatic status sessions, confirm pending time, and review personal work in **My Time**. Activity detail shows **Time & Estimate** (Total Spent, Estimated, Current activity / Sub-elements, Time to confirm). Configure the instance **Working Calendar** and workspace **Estimation Defaults**. See the **[Time Tracking guide](docs/time-tracking.md)** and [0.13.0 release notes](docs/releases/0.13.0.md).
+
+![Time tracking — Log Time, Worklogs, Time & Estimate, and My Time](docs/assets/nogira-time-tracking.gif)
+
+---
+
 ## Workspace Whiteboards
 
 Brainstorm, sketch architectures, map processes, and collaborate visually on an infinite canvas inside each workspace. Create sticky notes, text, shapes, connectors, and images; pan and zoom; connect shapes with arrows; edit together in real time with presence indicators; changes autosave to your instance. Star boards from the workspace list and open them from **Home → Favorites → Whiteboards**.
@@ -164,8 +173,6 @@ Publish a direct link, `/form/:code`, that creates a real Activity. The same pag
 
 ![Enabling Forms — list, wizard, public page, and submitted request](docs/assets/nogira-forms.gif)
 
-*Add `docs/assets/nogira-forms.gif` before publishing 0.5.0. Show the Forms lists, the five-step wizard, the public page with privacy acceptance, and the submitted screen.*
-
 ---
 
 ## Products, Services & Catalogue
@@ -181,16 +188,6 @@ Organisation-shared **Products**, **Services**, **Components**, and product **Ve
 Desktop **My Work** is a personal five-column Kanban across your discoverable workspaces — Needs Attention, Ready to Start, Active Work, Waiting, and Recently Completed — with Customize, workflow-valid drag-and-drop, and the same board chrome as workspace Kanban and Active Scrum.
 
 ![My Work Universal Kanban](docs/assets/nogira-catalogue.gif)
-
----
-
-## Application version
-
-The expanded menu, the public form, and the sign-in pages show **Powered by NoGira** plus the running version.
-
-![Application version — menu, public form, and sign-in](docs/assets/nogira-version.gif)
-
-*Add `docs/assets/nogira-version.gif` before publishing 0.6.0. Show the expanded left menu, the public form powered-by line, and a sign-in page.*
 
 ---
 
@@ -254,6 +251,7 @@ This repository is the **Community Edition installer** only. Application source 
 | Doc | Topic |
 |-----|--------|
 | [docs/quick-start.md](docs/quick-start.md) | First install |
+| [docs/time-tracking.md](docs/time-tracking.md) | Time & Estimate, Log Time, My Time, Working Calendar |
 | [docs/mcp.md](docs/mcp.md) | MCP server, PAT auth, Cursor setup |
 | [docs/event-challenges.md](docs/event-challenges.md) | Live event challenges — admin runbook |
 | [docs/deployment.md](docs/deployment.md) | Upgrade, volumes, platform support |

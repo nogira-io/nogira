@@ -8,6 +8,10 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.13.3](docs/releases/0.13.3.md) | Mobile drawer exclusive selection + filter persistence (**NGDEV-454-PX7** / NGB-113); context-aware in-panel activity navigation + mobile wiki chrome (**NGDEV-462** / NGB-107). No GIF. Sample compose stays on latest. |
+| [0.13.2](docs/releases/0.13.2.md) | Unified activity detail overlay under header (Search/My Work/Activities/Kanban/Scrum/Plan); Search table scroll; My Work Quick filters removed (**NGDEV-454** / NGB-106). No GIF. Sample compose stays on latest. |
+| [0.13.1](docs/releases/0.13.1.md) | Time UX polish: My Time overlap column width + today primary badge; Worklogs Log Time ActionButton (**NGDEV-404-PX6** / NGF-019). No GIF. Sample compose stays on latest. |
+| [0.13.0](docs/releases/0.13.0.md) | Activity time tracking, Log/Edit worklogs, My Time, estimation defaults, mobile sheets (**NGF-019** / NGDEV-397–404). GIF included. Sample compose stays on latest. |
 | [0.12.8](docs/releases/0.12.8.md) | Email CTA/header org appearance (NGDEV-369-P6); deleted-user **D** avatar + `Deleted u-XXXXXX` (NGDEV-369-P7 / NGF-051). No GIF. Sample compose stays on latest. |
 | [0.12.7](docs/releases/0.12.7.md) | Org appearance on login/register/onboarding via `/appearance/public` + primary tokens; auth aside accents (NGDEV-369 / NGF-093). No GIF. Sample compose stays on latest. |
 | [0.12.6](docs/releases/0.12.6.md) | Board Actions Move for N≥1 selected; shared destination workspace/type/status (NGDEV-372-P8 / NGF-079). No GIF. Sample compose stays on latest. |

@@ -63,6 +63,7 @@ You will need to run the setup wizard again.
 ## Next steps
 
 - [deployment.md](deployment.md) — upgrades, volumes, PostgreSQL notes
+- [time-tracking.md](time-tracking.md) — Time & Estimate, Log Time, My Time, Working Calendar
 - [mcp.md](mcp.md) — connect Cursor/AI clients via MCP
 - [event-challenges.md](event-challenges.md) — run a live event challenge (admin)
 - [faq.md](faq.md) — editions and open core
