@@ -28,7 +28,7 @@ services:
       PORT: 4000
       DATABASE_URL: postgresql://nogira:${POSTGRES_PASSWORD}@nogira-postgres:5432/nogira
       APP_VERSION: 'latest'
-      JWT_SECRET: ${JWT_SECRET}
+      JWT_SECRET: ${JWT_SECRET:-}
       NOGIRA_STORAGE_ROOT: /data
       CORS_ORIGIN: http://localhost:3000
       FRONTEND_URL: http://localhost:3000
