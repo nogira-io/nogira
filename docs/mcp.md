@@ -53,6 +53,33 @@ The MCP server forwards auth to the NoGira API. The API validates the PAT and en
 - `getActivity`
 - `updateActivity` — UI-parity update surface
 
+## Time tracking tools (existing REST only)
+
+These tools call product `/api/activities/*` (and related GETs) with the same PAT. They do **not** add new REST routes, timers, or session confirmation.
+
+| Tool | REST | Notes |
+|------|------|-------|
+| `listActivityWorklogs` | `GET /api/activities/:id/worklogs` | cursor pagination |
+| `logActivityTime` | `POST /api/activities/:id/worklogs` | max **31** `days[]`; minutes 1–1440 |
+| `updateActivityWorklog` | `PATCH …/worklogs/:entryId` | requires `version` (409 on conflict) |
+| `deleteActivityWorklog` | `DELETE …/worklogs/:entryId` | soft-delete; requires `version` |
+| `bulkLogActivityTime` | orchestrates `POST …/worklogs` | max **50** items; per-item results; optional `previewOnly` |
+| `getMyTime` | `GET /api/activities/my-time` | personal only; day/week/month beyond `dayTotals`/`periodTotalMinutes` = **client aggregation** of this payload |
+| `getActivityTimeSummary` | `GET …/time-summary` | use REST totals; do not double-count |
+| `getActivityPendingTimeSuggestions` | `GET …/sessions/pending-suggestions` | read-only |
+| `getWorkspaceEstimationDefaults` | `GET /api/workspaces/:id/estimation-defaults` | |
+| `getSystemWorkingCalendar` | `GET /api/system/settings/working-calendar` | admin-gated (members get 403) |
+
+**Out of scope / deferred:** team time reports, get-by-entry-id, estimate/tracking PATCH via MCP, `sessions/confirm`, start/stop timers.
+
+### Sample prompts
+
+```text
+Log 60 minutes on activity <uuid> for 2026-11-20 with description "docs".
+Show my time from 2026-11-17 to 2026-11-21.
+Get time summary for activity <uuid>.
+```
+
 ## Wiki images via MCP (NG-721-P11)
 
 Repo-relative markdown images (`![](assets/…)`) do not render on hosted wiki. Use attachments:

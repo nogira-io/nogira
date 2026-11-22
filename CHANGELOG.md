@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.13.5](docs/releases/0.13.5.md) | MCP time-tracking tools over existing product REST (**NGF-019** / **NGDEV-485**): worklog CRUD + bulk, My Time / summary / pending suggestions (read), estimation-defaults + working-calendar; catalog 50 tools; PAT authz QA. No GIF. Sample compose stays on latest. |
 | [0.13.4](docs/releases/0.13.4.md) | Critical/High security remediation (**NGDEV-461** / **NGF-053**): workspace authz + UI capabilities, JWT secret fail-closed, ADMIN/SYSTEM_ADMIN guards + Manage Users `allowedActions`, wiki PDF SSRF harden, multer/sharp/nodemailer/MCP SDK upgrades (**NGDEV-467…471** / NGB-108…112). No GIF. Sample compose stays on latest. |
 | [0.13.3](docs/releases/0.13.3.md) | Mobile drawer exclusive selection + filter persistence (**NGDEV-454-PX7** / NGB-113); context-aware in-panel activity navigation + mobile wiki chrome (**NGDEV-462** / NGB-107). No GIF. Sample compose stays on latest. |
 | [0.13.2](docs/releases/0.13.2.md) | Unified activity detail overlay under header (Search/My Work/Activities/Kanban/Scrum/Plan); Search table scroll; My Work Quick filters removed (**NGDEV-454** / NGB-106). No GIF. Sample compose stays on latest. |
