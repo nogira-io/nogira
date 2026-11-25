@@ -8,6 +8,7 @@ Release notes are split by version under [`docs/releases/`](docs/releases/). Thi
 
 | Version | Release notes |
 |---------|----------------|
+| [0.13.9](docs/releases/0.13.9.md) | Activities roots/expand perf: page-bounded workspace-scoped `treeHasChildren` + Activity list indexes (**NG-779-P7-perf-opt** / **NGF-101**). No GIF. Sample compose stays on latest. |
 | [0.13.8](docs/releases/0.13.8.md) | Activity hierarchy: independent Add/Link child + capabilities; same-WS + Portfolio leaf bridge; Activities roots include foreign-parent links; portfolio rollup filters; My Work type icon (**NGF-101** / **NG-779-P6/P7/P7.1** / **NGB-117**). No GIF. Sample compose stays on latest. |
 | [0.13.7](docs/releases/0.13.7.md) | NGB-114 close: Layout boards 403 shell crash, portfolio child Owner picker + parent-owner inherits child perms, QA actor/selector/wizard harden. No GIF. Remainders **NGB-116**. Sample compose stays on latest. |
 | [0.13.6](docs/releases/0.13.6.md) | Ops / BizDev / Marketing workspace templates + clone-on-create, portfolio child create/link, catalogue + `createWorkspace` MCP (**NGF-045** / **NG-775**); working-calendar unique-race harden. No GIF. Sample compose stays on latest. |
